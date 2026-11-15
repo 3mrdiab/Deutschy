@@ -33,13 +33,13 @@ export default function Shell({ children }: { children: ReactNode }) {
             <span>Lv {level(s.xp)}</span><span>{s.xp} XP</span>
             <span className="inline-flex items-center gap-0.5 text-accent"><Flame />{s.streak}</span>
           </div>
-          <button onClick={() => setLang(lang === 'ar' ? 'en' : 'ar')} aria-label="Language" className="rounded-full border border-line px-3 py-1 text-xs font-bold hover:bg-card">
+          <button onClick={() => setLang(lang === 'ar' ? 'en' : 'ar')} aria-label="Language" className="rounded-full border border-line px-3 py-1 text-xs font-bold whitespace-nowrap hover:bg-card">
             {lang === 'ar' ? 'EN' : 'عربي'}
           </button>
           {user === undefined ? null : user ? (
             <Link href="/account/" className="hidden rounded-full bg-accent px-3 py-1.5 text-xs font-bold text-accent-ink sm:inline-block">{user.name.split(' ')[0]}</Link>
           ) : (
-            <Link href="/account/" className="rounded-full bg-accent px-3 py-1.5 text-xs font-bold text-accent-ink">{t('دخول', 'Sign in')}</Link>
+            <Link href="/account/" className="rounded-full bg-accent px-3 py-1.5 text-xs font-bold whitespace-nowrap text-accent-ink">{t("دخول", "Sign in")}</Link>
           )}
         </div>
       </header>
