@@ -1,4 +1,5 @@
 'use client';
+import Speaker from './Speaker';
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
@@ -66,7 +67,7 @@ function Flash({ list }: { list: Word[] }) {
       </button>
       {flip && (
         <div className="flex gap-3">
-          <button onClick={() => speak(`${w.art} ${w.de}`)} className="rounded-full border border-line px-4 py-3">🔊</button>
+          <button onClick={() => speak(`${w.art} ${w.de}`)} className="rounded-full border border-line px-4 py-3"><Speaker /></button>
           <button onClick={() => next(false)} className="flex-1 rounded-full border border-line py-3 font-bold">لسه</button>
           <button onClick={() => next(true)} className="flex-1 rounded-full bg-accent py-3 font-bold text-accent-ink">عرفتها</button>
         </div>

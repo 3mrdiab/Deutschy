@@ -1,4 +1,5 @@
 'use client';
+import Speaker from '@/components/Speaker';
 import { sections } from '@/lib/basics';
 import { speak } from '@/lib/speak';
 
@@ -7,7 +8,7 @@ export default function Learn() {
     <div className="space-y-10">
       <div>
         <h1 className="ar-title text-4xl font-bold">أساسيات المستوى A1</h1>
-        <p className="mt-2 text-muted">التحيات، الأرقام، الأيام، الألوان، وأهم فعلين. اضغط 🔊 عشان تسمع النطق.</p>
+        <p className="mt-2 text-muted">التحيات، الأرقام، الأيام، الألوان، وأهم فعلين. اضغط على زرار السماعة عشان تسمع النطق.</p>
       </div>
       {sections.map((sec) => (
         <section key={sec.id} id={sec.id} className="rounded-2xl border border-line bg-card p-5">
@@ -19,7 +20,7 @@ export default function Learn() {
                 <span className="de num text-lg" lang="de">{de}</span>
                 <span className="flex items-center gap-2">
                   {ar && <span className="ar-title text-lg text-muted">{ar}</span>}
-                  <button aria-label="نطق" onClick={() => speak(de.replace(/^\d+ – /, ''))} className="rounded-full border border-line px-2.5 py-0.5 text-sm hover:bg-card">🔊</button>
+                  <button aria-label="نطق" onClick={() => speak(de.replace(/^\d+ – /, ''))} className="rounded-full border border-line px-2.5 py-0.5 text-sm hover:bg-card"><Speaker /></button>
                 </span>
               </li>
             ))}

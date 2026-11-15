@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import './globals.css';
 import Nav from '@/components/Nav';
 
@@ -16,9 +15,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <Nav />
         <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>
-        <footer className="mx-auto max-w-6xl border-t border-line px-4 py-8 text-xs text-muted">
-          <p>Deutschy · الصور من Wikimedia Commons بتراخيص مفتوحة – <Link className="underline" href="/credits/">حقوق الصور</Link></p>
-        </footer>
       </body>
     </html>
   );

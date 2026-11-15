@@ -1687,21 +1687,6 @@
    }
   },
   {
-   "id": "nase",
-   "topic": "body",
-   "art": "die",
-   "de": "Nase",
-   "plural": "Nasen",
-   "ar": "مناخير / أنف",
-   "photo": {
-    "file": "Neus1.jpg",
-    "page": "https://de.wikipedia.org/wiki/Nase",
-    "commons": "https://commons.wikimedia.org/wiki/File:Neus1.jpg",
-    "license": "CC BY-SA 2.0",
-    "author": "LHOON"
-   }
-  },
-  {
    "id": "mund",
    "topic": "body",
    "art": "der",

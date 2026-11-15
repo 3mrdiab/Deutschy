@@ -1,4 +1,5 @@
 'use client';
+import Speaker from './Speaker';
 import { Word, img, pluralText } from '@/lib/data';
 import { speak } from '@/lib/speak';
 
@@ -12,7 +13,7 @@ export default function WordCard({ w }: { w: Word }) {
           <h3 className="de text-2xl font-semibold leading-tight" lang="de">
             <span className="text-accent">{w.art}</span> {w.de}
           </h3>
-          <button onClick={() => speak(`${w.art} ${w.de}`)} aria-label={`نطق ${w.de}`} className="shrink-0 rounded-full border border-line px-3 py-1 text-sm hover:bg-paper">🔊</button>
+          <button onClick={() => speak(`${w.art} ${w.de}`)} aria-label={`نطق ${w.de}`} className="shrink-0 rounded-full border border-line px-3 py-1 text-sm hover:bg-paper"><Speaker /></button>
         </div>
         <p className="ar-title text-xl text-ink">{w.ar}</p>
         <p className="de text-sm text-muted" lang="de">{pluralText(w)}</p>

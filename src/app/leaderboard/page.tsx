@@ -1,4 +1,5 @@
 'use client';
+import Flame from '@/components/Flame';
 import { useStore, level } from '@/lib/store';
 import { useAuth } from '@/lib/store';
 
@@ -21,7 +22,7 @@ export default function Leaderboard() {
         <Stat l="الاسم" v={<input className="w-full rounded-lg border border-line bg-paper px-2 py-1" placeholder={user?.name ?? 'اكتب اسمك'} value={s.name} onChange={(e) => patch({ name: e.target.value })} />} />
         <Stat l="المستوى" v={<span className="num text-3xl font-bold">{level(s.xp)}</span>} />
         <Stat l="XP" v={<span className="num text-3xl font-bold">{s.xp}</span>} />
-        <Stat l="أطول سلسلة أيام" v={<span className="num text-3xl font-bold">🔥 {s.best}</span>} />
+        <Stat l="أطول سلسلة أيام" v={<span className="num inline-flex items-center gap-1 text-3xl font-bold"><Flame className="h-7 w-7 text-accent" />{s.best}</span>} />
       </section>
       <div className="grid gap-4 md:grid-cols-2">
         {best.map(({ g, label, rows }) => (

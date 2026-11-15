@@ -1,4 +1,5 @@
 'use client';
+import Flame from './Flame';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { useAuth, useStore, level } from '@/lib/store';
@@ -32,7 +33,7 @@ export default function Nav() {
           {user?.isAdmin && <Link href="/admin/" className="rounded-full px-3 py-1.5 text-accent hover:bg-card">لوحة التحكم</Link>}
         </nav>
         <div className="num flex flex-1 items-center justify-end gap-3 text-xs font-bold text-muted md:flex-none" title="XP ومستوى وسلسلة الأيام">
-          <span>Lv {level(s.xp)}</span><span>{s.xp} XP</span><span>{s.streak} 🔥</span>
+          <span>Lv {level(s.xp)}</span><span>{s.xp} XP</span><span className="inline-flex items-center gap-0.5 text-accent"><Flame />{s.streak}</span>
         </div>
         {user === undefined ? null : user ? (
           <button className="rounded-full border border-line px-3 py-1.5 text-xs font-semibold hover:bg-card" onClick={async () => { await fetch('/api/auth/logout', { method: 'POST' }); location.reload(); }}>
