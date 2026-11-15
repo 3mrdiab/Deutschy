@@ -257,6 +257,24 @@ app.get('/admin/ping', async (c) => {
   return c.json({ ok: true });
 });
 
+app.get('/admin/stats', async (c) => {
+  const u = await getUser(c.req.raw, c.env);
+  c.header('Cache-Control', 'no-store');
+  if (!u || u.email !== ADMIN_EMAIL) return c.json({ error: 'forbidden' }, 403);
+  if (!c.env.DB) return c.json({ users: 0, google: 0, active7: 0, xp: 0, recent: [], top: [] });
+  const db = c.env.DB;
+  const day = Date.now() - 7 * 864e5;
+  const one = async (q: string, ...b: unknown[]) => ((await db.prepare(q).bind(...b).first()) as Record<string, number> | null) ?? {};
+  const users = (await one('SELECT COUNT(*) n FROM users')).n ?? 0;
+  const google = (await one('SELECT COUNT(*) n FROM users WHERE google = 1')).n ?? 0;
+  const week = (await one('SELECT COUNT(*) n FROM users WHERE created_at > ?', day)).n ?? 0;
+  const xp = (await one('SELECT COALESCE(SUM(xp),0) n FROM progress')).n ?? 0;
+  const games = (await one('SELECT COUNT(*) n FROM scores')).n ?? 0;
+  const recent = (await db.prepare('SELECT name, email, google, created_at FROM users ORDER BY created_at DESC LIMIT 10').all()).results;
+  const top = (await db.prepare('SELECT u.name, p.xp FROM progress p JOIN users u ON u.id = p.user_id ORDER BY p.xp DESC LIMIT 5').all()).results;
+  return c.json({ users, google, week, xp, games, recent, top });
+});
+
 // Text-to-speech via ElevenLabs when a key is configured; otherwise the client falls back to the browser's German voice.
 app.get('/tts', async (c) => {
   const key = c.env.ELEVENLABS_API_KEY;
