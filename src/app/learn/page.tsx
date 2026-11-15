@@ -6,7 +6,7 @@ export default function Learn() {
   return (
     <div className="space-y-10">
       <div>
-        <h1 className="ar-title text-4xl font-bold">أساسيات A1</h1>
+        <h1 className="ar-title text-4xl font-bold">أساسيات المستوى A1</h1>
         <p className="mt-2 text-muted">التحيات، الأرقام، الأيام، الألوان، وأهم فعلين. اضغط 🔊 عشان تسمع النطق.</p>
       </div>
       {sections.map((sec) => (

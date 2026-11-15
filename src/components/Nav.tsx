@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { useAuth, useStore, level } from '@/lib/store';
 
 const links = [
+  { href: '/levels/', label: 'المستويات' },
   { href: '/lessons/', label: 'الدروس' },
   { href: '/learn/', label: 'أساسيات' },
   { href: '/games/', label: 'ألعاب' },

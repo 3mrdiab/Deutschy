@@ -6,7 +6,7 @@ export const metadata = { title: 'الدروس – Deutschy' };
 export default function Lessons() {
   return (
     <div className="space-y-6">
-      <h1 className="ar-title text-4xl font-bold">الدروس</h1>
+      <h1 className="ar-title text-4xl font-bold">الدروس · المستوى A1</h1>
       <p className="text-muted">كل درس موضوع واحد. افتح الدرس، شوف الكروت، وبعدين جرّب الألعاب على نفس الكلمات.</p>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {topics.map((t, i) => {

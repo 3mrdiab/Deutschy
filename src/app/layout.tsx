@@ -5,9 +5,9 @@ import Nav from '@/components/Nav';
 
 export const metadata: Metadata = {
   title: 'Deutschy – تعلّم الألماني بالعربي المصري',
-  description: 'منصة لتعلم الألماني (A1) بالصور والألعاب، بشرح بالعربي المصري.',
+  description: 'منصة لتعلم الألماني بكل مستوياته من A1 لحد C2، بالصور والألعاب وشرح بالعربي المصري.',
   metadataBase: new URL('https://deutschy.pages.dev'),
-  openGraph: { title: 'Deutschy', description: 'تعلّم الألماني A1 بالصور والألعاب', url: 'https://deutschy.pages.dev', locale: 'ar_EG' },
+  openGraph: { title: 'Deutschy', description: 'تعلّم الألماني بكل مستوياته بالصور والألعاب', url: 'https://deutschy.pages.dev', locale: 'ar_EG' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

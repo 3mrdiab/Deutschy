@@ -7,7 +7,7 @@ export default function Home() {
     <div className="space-y-14">
       <section className="grid items-center gap-8 md:grid-cols-2">
         <div className="space-y-5">
-          <p className="num text-sm font-bold text-accent">A1 · {words.length} كلمة بصورها حقيقية</p>
+          <p className="num text-sm font-bold text-accent">من A1 لحد C2 · {words.length} كلمة بصور حقيقية جاهزة دلوقتي</p>
           <h1 className="ar-title text-5xl font-bold leading-[1.15] md:text-6xl">الألماني بقى <span className="text-accent">أسهل</span> بالصورة والعربي المصري</h1>
           <p className="max-w-lg text-lg text-muted">كل كلمة معاها صورة حقيقية، أداة التعريف الصح (der / die / das)، والجمع. اتعلم بالكروت وبعدين العب وجمّع XP.</p>
           <div className="flex gap-3">
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <h2 className="ar-title mb-5 text-3xl font-bold">الدروس</h2>
+        <h2 className="ar-title mb-5 text-3xl font-bold">المستوى A1 · الدروس</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {topics.map((t) => {
             const ws = wordsOf(t.id);
