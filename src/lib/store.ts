@@ -15,6 +15,19 @@ export const load = (): State => {
 };
 const save = (s: State) => { localStorage.setItem(KEY, JSON.stringify(s)); window.dispatchEvent(new Event('deutschy:update')); };
 
+let loggedIn = false;
+export const setLoggedIn = (v: boolean) => { loggedIn = v; };
+export function mergeRemote(r: { xp: number; streak: number; best: number; lastDay: string; data?: { seen?: State['seen']; name?: string } }) {
+  const cur = load();
+  const merged: State = { ...cur, xp: Math.max(cur.xp, r.xp), best: Math.max(cur.best, r.best, cur.streak, r.streak) };
+  if ((r.lastDay ?? '') > cur.lastDay) { merged.lastDay = r.lastDay; merged.streak = r.streak; } else merged.streak = cur.streak;
+  const seen = { ...(r.data?.seen ?? {}) };
+  for (const [k, v] of Object.entries(cur.seen)) { const o = seen[k]; seen[k] = o ? { ok: Math.max(o.ok, v.ok), bad: Math.max(o.bad, v.bad) } : v; }
+  merged.seen = seen;
+  if (!merged.name && r.data?.name) merged.name = r.data.name;
+  save(merged);
+}
+
 export const level = (xp: number) => Math.floor(Math.sqrt(xp / 50)) + 1;
 export const levelFloor = (l: number) => (l - 1) * (l - 1) * 50;
 
@@ -48,6 +61,7 @@ export function useStore() {
   const addScore = useCallback((game: string, score: number) => {
     const cur = load();
     cur.scores = [...cur.scores, { game, score, at: Date.now(), name: cur.name || 'أنا' }].slice(-200);
+    if (loggedIn) fetch('/api/me/score', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ game, score }) }).catch(() => {});
     save(cur);
   }, []);
   const patch = useCallback((p: Partial<State>) => { save({ ...load(), ...p }); }, []);

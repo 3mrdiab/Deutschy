@@ -1,0 +1,74 @@
+'use client';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useEffect, useState, type ReactNode } from 'react';
+import Flame from './Flame';
+import { useAuth, useStore, level } from '@/lib/store';
+import { useLang, useT } from '@/lib/i18n';
+import { sidebar } from '@/lib/nav';
+import AuthSync from './AuthSync';
+
+export default function Shell({ children }: { children: ReactNode }) {
+  const user = useAuth();
+  const { s } = useStore();
+  const { lang, setLang } = useLang();
+  const t = useT();
+  const path = usePathname() ?? '/';
+  const [open, setOpen] = useState(false);
+  useEffect(() => setOpen(false), [path]);
+  useEffect(() => {
+    document.documentElement.dataset.theme = user?.isAdmin ? s.theme || 'papier' : 'papier';
+  }, [user, s.theme]);
+  const active = (href: string) => (href === '/' ? path === '/' : path.startsWith(href.replace(/\/$/, '')));
+  return (
+    <>
+      <AuthSync />
+      <header className="sticky top-0 z-30 border-b border-line bg-paper/95 backdrop-blur">
+        <div className="flex items-center gap-3 px-4 py-2.5">
+          <button aria-label={t('القائمة', 'Menu')} aria-expanded={open} onClick={() => setOpen(!open)} className="rounded-lg border border-line p-2 md:hidden">
+            <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+          </button>
+          <Link href="/" className="de text-2xl font-semibold tracking-tight" dir="ltr">Deutsch<span className="text-accent">y</span></Link>
+          <div className="num ms-auto flex items-center gap-2 whitespace-nowrap text-xs font-bold text-muted" dir="ltr">
+            <span>Lv {level(s.xp)}</span><span>{s.xp} XP</span>
+            <span className="inline-flex items-center gap-0.5 text-accent"><Flame />{s.streak}</span>
+          </div>
+          <button onClick={() => setLang(lang === 'ar' ? 'en' : 'ar')} aria-label="Language" className="rounded-full border border-line px-3 py-1 text-xs font-bold hover:bg-card">
+            {lang === 'ar' ? 'EN' : 'عربي'}
+          </button>
+          {user === undefined ? null : user ? (
+            <Link href="/account/" className="hidden rounded-full bg-accent px-3 py-1.5 text-xs font-bold text-accent-ink sm:inline-block">{user.name.split(' ')[0]}</Link>
+          ) : (
+            <Link href="/account/" className="rounded-full bg-accent px-3 py-1.5 text-xs font-bold text-accent-ink">{t('دخول', 'Sign in')}</Link>
+          )}
+        </div>
+      </header>
+      {open && <div className="fixed inset-0 z-30 bg-black/30 md:hidden" onClick={() => setOpen(false)} aria-hidden="true" />}
+      <aside
+        className={`fixed bottom-0 top-[53px] z-40 w-72 overflow-y-auto border-line bg-paper p-3 transition-none start-0 border-e md:w-64 ${open ? '' : 'max-md:hidden'}`}
+        aria-label={t('التنقل', 'Navigation')}
+      >
+        <nav className="space-y-4 text-sm font-semibold">
+          {sidebar.map((g) => (
+            <div key={g.id}>
+              <p className="px-3 pb-1 text-xs font-bold uppercase tracking-wide text-muted">{t(g.ar, g.en)}</p>
+              <ul className="space-y-0.5">
+                {g.items.filter((i) => !i.admin || user?.isAdmin).map((i) => (
+                  <li key={i.href}>
+                    <Link href={i.href} className={`flex items-center justify-between rounded-lg px-3 py-2 ${active(i.href) ? 'bg-accent text-accent-ink' : 'hover:bg-card'}`}>
+                      <span>{t(i.ar, i.en)}</span>
+                      {i.tag && <span className="de num text-xs opacity-70">{i.tag}</span>}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </nav>
+      </aside>
+      <main className="px-4 py-8 md:ps-72 md:pe-8">
+        <div className="mx-auto max-w-5xl">{children}</div>
+      </main>
+    </>
+  );
+}

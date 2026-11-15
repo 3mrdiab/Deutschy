@@ -1,4 +1,5 @@
 import raw from '../../data/vocab.json';
+import enRaw from '../../data/en.json';
 
 export type Photo = { file: string; page: string; commons: string; license: string; author: string };
 export type Word = {
@@ -13,9 +14,14 @@ export const topicTitles: Record<string, string> = {
   family: 'Familie', food: 'Essen', drinks: 'Getränke', house: 'Haus', places: 'Stadt', transport: 'Verkehr',
   kitchen: 'Küche 2', devices: 'Geräte', outdoors: 'Draußen', town: 'Dorf & Stadt', clothes: 'Kleidung', animals: 'Tiere', body: 'Körper', school: 'Schule & Büro', nature: 'Natur', jobs: 'Berufe',
 };
+export const topicEn: Record<string, string> = {
+  family: 'Family', food: 'Food', drinks: 'Drinks', house: 'House', places: 'Places', transport: 'Transport', clothes: 'Clothes', animals: 'Animals', body: 'Body', school: 'School and office', nature: 'Nature', jobs: 'Jobs', kitchen: 'Kitchen and food 2', devices: 'Devices and things', outdoors: 'Outdoors', town: 'Village and city',
+};
+export const glossOf = (w: Word, lang: 'ar' | 'en') => (lang === 'en' ? (enRaw as Record<string, string>)[w.id] ?? w.ar : w.ar);
+export const topicName = (id: string, lang: 'ar' | 'en') => (lang === 'en' ? topicEn[id] : topics.find((t) => t.id === id)?.ar ?? id);
 export const wordsOf = (topic: string) => words.filter((w) => w.topic === topic);
 export const withArticle = (w: Word) => `${w.art} ${w.de}`;
-export const pluralText = (w: Word) => (w.plural === '-' ? 'die ' + w.de + ' (نفس الشكل)' : 'die ' + w.plural);
+export const pluralText = (w: Word, lang: 'ar' | 'en' = 'ar') => (w.plural === '-' ? 'die ' + w.de + (lang === 'ar' ? ' (نفس الشكل)' : ' (same form)') : 'die ' + w.plural);
 export const img = (w: Word) => `/img/${w.id}.jpg`;
 
 export const shuffle = <T,>(a: T[]): T[] => {

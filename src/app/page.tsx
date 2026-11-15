@@ -1,18 +1,23 @@
 import Link from 'next/link';
-import { topics, topicTitles, words, wordsOf, img } from '@/lib/data';
+import { topics, words, wordsOf, img } from '@/lib/data';
+import { T } from '@/lib/i18n';
+import { TopicName } from '@/components/L';
 
 export default function Home() {
   const hero = words.filter((w) => ['apfel', 'pferd', 'fahrrad', 'kaffee'].includes(w.id));
   return (
     <div className="space-y-14">
-      <section className="grid items-center gap-8 md:grid-cols-2">
+      <section className="grid items-center gap-8 lg:grid-cols-2">
         <div className="space-y-5">
-          <p className="num text-sm font-bold text-accent">من A1 لحد C2 · {words.length} كلمة بصور حقيقية جاهزة دلوقتي</p>
-          <h1 className="ar-title text-5xl font-bold leading-[1.15] md:text-6xl">الألماني بقى <span className="text-accent">أسهل</span> بالصورة والعربي المصري</h1>
-          <p className="max-w-lg text-lg text-muted">كل كلمة معاها صورة حقيقية، أداة التعريف الصح (der / die / das)، والجمع. اتعلم بالكروت وبعدين العب وجمّع XP.</p>
-          <div className="flex gap-3">
-            <Link href="/lessons/" className="rounded-full bg-accent px-6 py-3 font-bold text-accent-ink">ابدأ الدروس</Link>
-            <Link href="/games/" className="rounded-full border border-line px-6 py-3 font-bold hover:bg-card">العب</Link>
+          <p className="num text-sm font-bold text-accent"><T ar={`من A1 لحد C2 · ${words.length} كلمة بصور حقيقية جاهزة دلوقتي`} en={`A1 to C2 · ${words.length} words with real photos, ready now`} /></p>
+          <h1 className="ar-title text-4xl font-bold leading-[1.15] md:text-6xl">
+            <T ar="الألماني بقى " en="German is easier " /><span className="text-accent"><T ar="أسهل" en="with pictures" /></span><T ar=" بالصورة والعربي المصري" en=" and plain explanations" />
+          </h1>
+          <p className="max-w-lg text-lg text-muted"><T ar="كل كلمة معاها صورة حقيقية، أداة التعريف الصح (der / die / das)، والجمع. اتعلم بالكروت وبعدين العب وجمّع XP." en="Every word comes with a real photo, the right article (der / die / das) and the plural. Learn with cards, then play and collect XP." /></p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/lessons/" className="rounded-full bg-accent px-6 py-3 font-bold text-accent-ink"><T ar="ابدأ الدروس" en="Start lessons" /></Link>
+            <Link href="/games/" className="rounded-full border border-line px-6 py-3 font-bold hover:bg-card"><T ar="العب" en="Play" /></Link>
+            <Link href="/account/" className="rounded-full border border-line px-6 py-3 font-bold hover:bg-card"><T ar="سجّل حساب" en="Create account" /></Link>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-3">
@@ -26,8 +31,8 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <h2 className="ar-title mb-5 text-3xl font-bold">المستوى A1 · الدروس</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <h2 className="ar-title mb-5 text-3xl font-bold"><T ar="المستوى A1 · الدروس" en="Level A1 · Lessons" /></h2>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {topics.map((t) => {
             const ws = wordsOf(t.id);
             return (
@@ -35,8 +40,7 @@ export default function Home() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={img(ws[0])} alt="" className="photo" width={480} height={360} loading="lazy" />
                 <div className="p-4">
-                  <p className="de text-xl font-semibold">{topicTitles[t.id]}</p>
-                  <p className="ar-title text-lg text-muted">{t.ar} · <span className="num">{ws.length}</span></p>
+                  <p className="ar-title text-xl text-ink"><TopicName id={t.id} /> · <span className="num">{ws.length}</span></p>
                 </div>
               </Link>
             );

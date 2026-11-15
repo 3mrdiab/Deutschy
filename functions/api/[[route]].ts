@@ -2,6 +2,7 @@ import { Hono } from 'hono';
 import { handle } from 'hono/cloudflare-pages';
 
 type Env = {
+  DB?: D1Database;
   GOOGLE_CLIENT_ID?: string;
   GOOGLE_CLIENT_SECRET?: string;
   SESSION_SECRET?: string;
@@ -41,7 +42,7 @@ const verify = async (secret: string, data: string, sig: string) => {
   }
 };
 
-type SessionUser = { email: string; name: string; picture: string; exp: number };
+type SessionUser = { id: number; email: string; name: string; picture: string; exp: number };
 
 const readCookie = (header: string | null, name: string) => {
   if (!header) return null;
@@ -66,6 +67,37 @@ async function getUser(req: Request, env: Env): Promise<SessionUser | null> {
   }
 }
 
+
+const pbkdf2 = async (password: string, salt: Uint8Array) => {
+  const key = await crypto.subtle.importKey('raw', enc.encode(password), 'PBKDF2', false, ['deriveBits']);
+  return b64u(await crypto.subtle.deriveBits({ name: 'PBKDF2', salt, iterations: 100000, hash: 'SHA-256' }, key, 256));
+};
+const emailOk = (e: string) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(e) && e.length <= 120;
+
+async function startSession(c: any, u: { id: number; email: string; name: string; picture: string }, redirect?: string) {
+  const user: SessionUser = { ...u, exp: Math.floor(Date.now() / 1000) + SESSION_DAYS * 86400 };
+  const payload = b64u(enc.encode(JSON.stringify(user)));
+  const sig = await sign(c.env.SESSION_SECRET, payload);
+  const cookie = `dsess=${payload}.${sig}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${SESSION_DAYS * 86400}`;
+  if (redirect) {
+    const res = c.redirect(redirect, 302);
+    res.headers.append('Set-Cookie', cookie);
+    res.headers.append('Set-Cookie', 'dstate=; Path=/api/auth; Max-Age=0');
+    return res;
+  }
+  c.header('Set-Cookie', cookie);
+  return c.json({ user: { email: u.email, name: u.name, picture: u.picture, isAdmin: u.email === ADMIN_EMAIL } });
+}
+async function upsertGoogle(db: D1Database, email: string, name: string, picture: string) {
+  const row = await db.prepare('SELECT id, name, picture FROM users WHERE email = ?').bind(email).first<{ id: number; name: string; picture: string }>();
+  if (row) {
+    await db.prepare('UPDATE users SET google = 1, picture = ? WHERE id = ?').bind(picture, row.id).run();
+    return { id: row.id, name: row.name, picture };
+  }
+  const r = await db.prepare('INSERT INTO users (email, name, picture, google, created_at) VALUES (?, ?, ?, 1, ?)').bind(email, name, picture, Date.now()).run();
+  return { id: Number(r.meta.last_row_id), name, picture };
+}
+
 const app = new Hono<{ Bindings: Env }>().basePath('/api');
 
 app.get('/health', (c) =>
@@ -73,6 +105,7 @@ app.get('/health', (c) =>
     ok: true,
     app: 'deutschy',
     auth: Boolean(c.env.GOOGLE_CLIENT_ID && c.env.GOOGLE_CLIENT_SECRET && c.env.SESSION_SECRET),
+    db: Boolean(c.env.DB),
     tts: Boolean(c.env.ELEVENLABS_API_KEY),
   }),
 );
@@ -122,30 +155,99 @@ app.get('/auth/callback', async (c) => {
     aud?: string; iss?: string; email?: string; email_verified?: boolean; name?: string; picture?: string;
   };
   if (claims.aud !== GOOGLE_CLIENT_ID || !claims.email || claims.email_verified !== true) return c.redirect('/?login=failed', 302);
-  const user: SessionUser = {
-    email: claims.email.toLowerCase(),
-    name: claims.name ?? claims.email,
-    picture: claims.picture ?? '',
-    exp: Math.floor(Date.now() / 1000) + SESSION_DAYS * 86400,
-  };
-  const payload = b64u(enc.encode(JSON.stringify(user)));
-  const sig = await sign(SESSION_SECRET, payload);
-  const res = c.redirect('/', 302);
-  res.headers.append('Set-Cookie', `dsess=${payload}.${sig}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${SESSION_DAYS * 86400}`);
-  res.headers.append('Set-Cookie', 'dstate=; Path=/api/auth; Max-Age=0');
-  return res;
+  const email = claims.email.toLowerCase();
+  const name = claims.name ?? claims.email;
+  const picture = claims.picture ?? '';
+  let id = 0;
+  if (c.env.DB) {
+    const g = await upsertGoogle(c.env.DB, email, name, picture);
+    id = g.id;
+    return startSession(c, { id, email, name: g.name, picture }, '/');
+  }
+  return startSession(c, { id, email, name, picture }, '/');
 });
 
 app.get('/auth/me', async (c) => {
   const u = await getUser(c.req.raw, c.env);
   c.header('Cache-Control', 'no-store');
   if (!u) return c.json({ user: null });
-  return c.json({ user: { email: u.email, name: u.name, picture: u.picture, isAdmin: u.email === ADMIN_EMAIL } });
+  return c.json({ user: { id: u.id, email: u.email, name: u.name, picture: u.picture, isAdmin: u.email === ADMIN_EMAIL } });
 });
 
 app.post('/auth/logout', (c) => {
   c.header('Set-Cookie', 'dsess=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
   return c.json({ ok: true });
+});
+
+
+app.post('/auth/register', async (c) => {
+  if (!c.env.DB || !c.env.SESSION_SECRET) return c.json({ error: 'not_configured' }, 503);
+  const b = (await c.req.json().catch(() => ({}))) as { email?: string; password?: string; name?: string };
+  const email = (b.email ?? '').trim().toLowerCase();
+  const password = b.password ?? '';
+  const name = (b.name ?? '').trim().slice(0, 40) || email.split('@')[0];
+  if (!emailOk(email)) return c.json({ error: 'bad_email' }, 400);
+  if (password.length < 8 || password.length > 100) return c.json({ error: 'weak_password' }, 400);
+  const exists = await c.env.DB.prepare('SELECT id FROM users WHERE email = ?').bind(email).first();
+  if (exists) return c.json({ error: 'email_taken' }, 409);
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const hash = await pbkdf2(password, salt);
+  const r = await c.env.DB.prepare('INSERT INTO users (email, name, pass_hash, pass_salt, created_at) VALUES (?, ?, ?, ?, ?)').bind(email, name, hash, b64u(salt), Date.now()).run();
+  return startSession(c, { id: Number(r.meta.last_row_id), email, name, picture: '' });
+});
+
+app.post('/auth/login', async (c) => {
+  if (!c.env.DB || !c.env.SESSION_SECRET) return c.json({ error: 'not_configured' }, 503);
+  const b = (await c.req.json().catch(() => ({}))) as { email?: string; password?: string };
+  const email = (b.email ?? '').trim().toLowerCase();
+  const password = b.password ?? '';
+  const row = await c.env.DB.prepare('SELECT id, name, picture, pass_hash, pass_salt FROM users WHERE email = ?').bind(email).first<{ id: number; name: string; picture: string; pass_hash: string | null; pass_salt: string | null }>();
+  if (!row || !row.pass_hash || !row.pass_salt) return c.json({ error: row ? 'use_google' : 'bad_credentials' }, 401);
+  const hash = await pbkdf2(password, fromB64u(row.pass_salt));
+  if (hash !== row.pass_hash) return c.json({ error: 'bad_credentials' }, 401);
+  return startSession(c, { id: row.id, email, name: row.name, picture: row.picture });
+});
+
+app.get('/me/progress', async (c) => {
+  const u = await getUser(c.req.raw, c.env);
+  c.header('Cache-Control', 'no-store');
+  if (!u || !c.env.DB) return c.json({ error: 'unauthorized' }, 401);
+  const row = await c.env.DB.prepare('SELECT xp, streak, best, last_day, data FROM progress WHERE user_id = ?').bind(u.id).first<{ xp: number; streak: number; best: number; last_day: string; data: string }>();
+  if (!row) return c.json({ progress: null });
+  return c.json({ progress: { xp: row.xp, streak: row.streak, best: row.best, lastDay: row.last_day, data: JSON.parse(row.data || '{}') } });
+});
+
+app.put('/me/progress', async (c) => {
+  const u = await getUser(c.req.raw, c.env);
+  if (!u || !c.env.DB) return c.json({ error: 'unauthorized' }, 401);
+  const b = (await c.req.json().catch(() => null)) as { xp?: number; streak?: number; best?: number; lastDay?: string; data?: unknown } | null;
+  if (!b) return c.json({ error: 'bad_body' }, 400);
+  const n = (x: unknown) => Math.max(0, Math.min(10_000_000, Math.floor(Number(x) || 0)));
+  const data = JSON.stringify(b.data ?? {});
+  if (data.length > 200_000) return c.json({ error: 'too_big' }, 413);
+  await c.env.DB.prepare(
+    'INSERT INTO progress (user_id, xp, streak, best, last_day, data, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?) ON CONFLICT(user_id) DO UPDATE SET xp = excluded.xp, streak = excluded.streak, best = excluded.best, last_day = excluded.last_day, data = excluded.data, updated_at = excluded.updated_at',
+  ).bind(u.id, n(b.xp), n(b.streak), n(b.best), String(b.lastDay ?? '').slice(0, 10), data, Date.now()).run();
+  return c.json({ ok: true });
+});
+
+app.post('/me/score', async (c) => {
+  const u = await getUser(c.req.raw, c.env);
+  if (!u || !c.env.DB) return c.json({ error: 'unauthorized' }, 401);
+  const b = (await c.req.json().catch(() => ({}))) as { game?: string; score?: number };
+  const game = String(b.game ?? '').slice(0, 24);
+  const score = Math.max(0, Math.min(100000, Math.floor(Number(b.score) || 0)));
+  if (!game) return c.json({ error: 'bad_game' }, 400);
+  await c.env.DB.prepare('INSERT INTO scores (user_id, game, score, at) VALUES (?, ?, ?, ?)').bind(u.id, game, score, Date.now()).run();
+  return c.json({ ok: true });
+});
+
+app.get('/leaderboard', async (c) => {
+  if (!c.env.DB) return c.json({ xp: [], scores: [] });
+  c.header('Cache-Control', 'public, max-age=30');
+  const xp = await c.env.DB.prepare('SELECT u.name, p.xp, p.best FROM progress p JOIN users u ON u.id = p.user_id ORDER BY p.xp DESC LIMIT 20').all();
+  const scores = await c.env.DB.prepare('SELECT u.name, s.game, MAX(s.score) AS score FROM scores s JOIN users u ON u.id = s.user_id GROUP BY s.user_id, s.game ORDER BY score DESC LIMIT 30').all();
+  return c.json({ xp: xp.results, scores: scores.results });
 });
 
 app.get('/admin/ping', async (c) => {

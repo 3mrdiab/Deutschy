@@ -1,4 +1,5 @@
 'use client';
+import { useT } from '@/lib/i18n';
 import { useEffect, useState } from 'react';
 import { useAuth, useStore } from '@/lib/store';
 import { words, topics } from '@/lib/data';
@@ -20,25 +21,26 @@ export default function Admin() {
     fetch('/api/admin/ping', { cache: 'no-store' }).then((r) => setOk(r.ok)).catch(() => setOk(false));
   }, [user]);
 
+  const t = useT();
   if (user === undefined || ok === null) return <p className="text-muted">…</p>;
   if (!ok) {
     return (
       <div className="mx-auto max-w-md space-y-3 rounded-2xl border border-line bg-card p-8 text-center">
-        <h1 className="ar-title text-2xl font-bold">الصفحة دي مش متاحة</h1>
-        {!user && <a href="/api/auth/google" className="inline-block rounded-full bg-accent px-5 py-2.5 font-bold text-accent-ink">دخول بحساب Google</a>}
+        <h1 className="ar-title text-2xl font-bold">{t('الصفحة دي مش متاحة', 'This page is not available')}</h1>
+        {!user && <a href="/account/" className="inline-block rounded-full bg-accent px-5 py-2.5 font-bold text-accent-ink">{t('دخول', 'Sign in')}</a>}
       </div>
     );
   }
   return (
     <div className="space-y-8">
-      <h1 className="ar-title text-4xl font-bold">لوحة التحكم</h1>
+      <h1 className="ar-title text-4xl font-bold">{t('لوحة التحكم', 'Admin dashboard')}</h1>
       <section className="grid gap-4 sm:grid-cols-3">
-        <div className="rounded-2xl border border-line bg-card p-5"><p className="text-sm text-muted">كلمات بصور</p><p className="num text-4xl font-bold">{words.length}</p></div>
-        <div className="rounded-2xl border border-line bg-card p-5"><p className="text-sm text-muted">دروس</p><p className="num text-4xl font-bold">{topics.length}</p></div>
-        <div className="rounded-2xl border border-line bg-card p-5"><p className="text-sm text-muted">XP عندك</p><p className="num text-4xl font-bold">{s.xp}</p></div>
+        <div className="rounded-2xl border border-line bg-card p-5"><p className="text-sm text-muted">{t('كلمات بصور', 'Words with photos')}</p><p className="num text-4xl font-bold">{words.length}</p></div>
+        <div className="rounded-2xl border border-line bg-card p-5"><p className="text-sm text-muted">{t('دروس', 'Lessons')}</p><p className="num text-4xl font-bold">{topics.length}</p></div>
+        <div className="rounded-2xl border border-line bg-card p-5"><p className="text-sm text-muted">{t('XP عندك', 'Your XP')}</p><p className="num text-4xl font-bold">{s.xp}</p></div>
       </section>
       <section>
-        <h2 className="ar-title mb-3 text-2xl font-bold">الثيمات</h2>
+        <h2 className="ar-title mb-3 text-2xl font-bold">{t('الثيمات', 'Themes')}</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {themes.map((th) => (
             <button key={th.id} onClick={() => patch({ theme: th.id })} data-theme={th.id} className={`rounded-2xl border-2 p-5 text-start ${s.theme === th.id ? 'border-accent' : 'border-line'}`} style={{ background: 'var(--card)', color: 'var(--ink)' }}>
@@ -48,7 +50,7 @@ export default function Admin() {
             </button>
           ))}
         </div>
-        <p className="mt-3 text-sm text-muted">الثيم بيتحفظ على جهازك وبيظهر لحسابك انت بس. باقي الزوار بيشوفوا Papier.</p>
+        <p className="mt-3 text-sm text-muted">{t('الثيم بيتحفظ على جهازك وبيظهر لحسابك انت بس. باقي الزوار بيشوفوا Papier.', 'The theme is saved on your device and only shows for your account. Other visitors see Papier.')}</p>
       </section>
     </div>
   );
