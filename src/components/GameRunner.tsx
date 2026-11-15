@@ -52,7 +52,7 @@ function Flash({ list }: { list: Word[] }) {
   const next = (ok: boolean) => { award(ok ? 2 : 0, w.id, ok); if (ok) setKnown((k) => k + 1); setFlip(false); setI(i + 1); };
   return (
     <div className="mx-auto max-w-md space-y-4">
-      <p className="num text-center text-sm text-muted">{i + 1} / {deck.length}</p>
+      <p dir="ltr" className="num text-center text-sm text-muted">{i + 1} / {deck.length}</p>
       <button onClick={() => setFlip(!flip)} className="block w-full overflow-hidden rounded-2xl border border-line bg-card text-start">
         <Photo w={w} />
         <div className="p-5 text-center">
@@ -143,7 +143,7 @@ function Frame({ i, n, children }: { i: number; n: number; children: React.React
   return (
     <div className="mx-auto max-w-md space-y-4">
       <div className="h-1.5 overflow-hidden rounded-full bg-line"><div className="h-full bg-accent" style={{ width: `${(i / n) * 100}%` }} /></div>
-      <p className="num text-center text-sm text-muted">{i + 1} / {n}</p>
+      <p dir="ltr" className="num text-center text-sm text-muted">{i + 1} / {n}</p>
       {children}
     </div>
   );
