@@ -11,7 +11,7 @@ export const words = raw.words as Word[];
 
 export const topicTitles: Record<string, string> = {
   family: 'Familie', food: 'Essen', drinks: 'Getränke', house: 'Haus', places: 'Stadt', transport: 'Verkehr',
-  clothes: 'Kleidung', animals: 'Tiere', body: 'Körper', school: 'Schule & Büro', nature: 'Natur', jobs: 'Berufe',
+  kitchen: 'Küche 2', devices: 'Geräte', outdoors: 'Draußen', town: 'Dorf & Stadt', clothes: 'Kleidung', animals: 'Tiere', body: 'Körper', school: 'Schule & Büro', nature: 'Natur', jobs: 'Berufe',
 };
 export const wordsOf = (topic: string) => words.filter((w) => w.topic === topic);
 export const withArticle = (w: Word) => `${w.art} ${w.de}`;

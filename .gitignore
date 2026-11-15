@@ -6,3 +6,4 @@ out
 .vault
 *.log
 data/cache.json
+data/cache2.json

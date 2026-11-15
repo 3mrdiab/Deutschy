@@ -1,0 +1,58 @@
+@kitchen|المطبخ والأكل 2|Küche
+der|Löffel|Löffel|معلقة|Löffel
+die|Gabel|Gabeln|شوكة|Gabel
+das|Messer|-|سكينة|Messer
+der|Teller|-|طبق|Teller
+die|Tasse|Tassen|فنجان|Tasse
+das|Glas|Gläser|كوباية|Trinkglas|Glas
+die|Flasche|Flaschen|إزازة|Flasche
+der|Topf|Töpfe|حلة|Kochtopf|Topf
+die|Pfanne|Pfannen|طاسة|Bratpfanne
+die|Birne|Birnen|كمثرى|Birnen
+die|Kirsche|Kirschen|كرز|Süßkirsche
+der|Pfirsich|Pfirsiche|خوخ|Pfirsich
+die|Wassermelone|Wassermelonen|بطيخ|Wassermelone
+die|Paprika|Paprikas|فلفل رومي|Gemüsepaprika
+der|Salat|Salate|سلطة|Blattsalat|Salat (Gericht)
+der|Pilz|Pilze|مشروم|Champignons|Pilze
+der|Knoblauch|-|توم|Knoblauch
+der|Honig|-|عسل|Honig
+die|Schokolade|Schokoladen|شيكولاتة|Schokolade
+die|Pizza|Pizzen|بيتزا|Pizza
+@devices|الأجهزة والحاجات|Geräte
+der|Fernseher|-|تلفزيون|Fernseher
+die|Kamera|Kameras|كاميرا|Kamera
+das|Telefon|Telefone|تليفون|Telefon
+der|Kühlschrank|Kühlschränke|تلاجة|Kühlschrank
+die|Waschmaschine|Waschmaschinen|غسالة|Waschmaschine
+die|Gitarre|Gitarren|جيتار|Gitarre
+das|Klavier|Klaviere|بيانو|Klavier
+der|Regenschirm|Regenschirme|شمسية|Regenschirm
+der|Koffer|-|شنطة سفر|Koffer
+die|Kerze|Kerzen|شمعة|Kerze
+der|Besen|-|مقشة|Besen
+der|Ball|Bälle|كورة|Ball (Spielgerät)|Ball
+der|Fußball|Fußbälle|كورة قدم|Fußball (Spielgerät)|Fußball
+@outdoors|برّه البيت|Draußen
+der|Wald|Wälder|غابة|Wald
+der|See|Seen|بحيرة|See
+die|Wiese|Wiesen|مرج|Wiese
+der|Schmetterling|Schmetterlinge|فراشة|Schmetterlinge
+die|Biene|Bienen|نحلة|Honigbiene
+das|Feuer|-|نار|Feuer
+der|Himmel|-|سما|Himmel
+der|Regenbogen|Regenbögen|قوس قزح|Regenbogen
+der|Stein|Steine|حجر|Stein (Geologie)|Stein
+der|Sand|-|رمل|Sand
+@town|القرية والمدينة|Stadt
+das|Dorf|Dörfer|قرية|Dorf
+die|Stadt|Städte|مدينة|Stadt
+das|Schloss|Schlösser|قصر|Schloss
+der|Turm|Türme|برج|Turm
+der|Bauernhof|Bauernhöfe|مزرعة|Bauernhof
+der|Zoo|Zoos|جنينة حيوان|Zoo
+die|Tankstelle|Tankstellen|محطة بنزين|Tankstelle
+der|Spielplatz|Spielplätze|ملعب أطفال|Spielplatz
+das|Stadion|Stadien|استاد|Stadion
+das|Rathaus|Rathäuser|مبنى البلدية|Rathaus
+der|Brunnen|-|نافورة|Brunnen

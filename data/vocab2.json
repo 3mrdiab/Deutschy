@@ -1,0 +1,727 @@
+{
+ "topics": [
+  {
+   "id": "kitchen",
+   "ar": "المطبخ والأكل 2"
+  },
+  {
+   "id": "devices",
+   "ar": "الأجهزة والحاجات"
+  },
+  {
+   "id": "outdoors",
+   "ar": "برّه البيت"
+  },
+  {
+   "id": "town",
+   "ar": "القرية والمدينة"
+  }
+ ],
+ "words": [
+  {
+   "id": "messer",
+   "topic": "kitchen",
+   "art": "das",
+   "de": "Messer",
+   "plural": "-",
+   "ar": "سكينة",
+   "photo": {
+    "file": "Gebel_el-Arak_knife_mp3h8783-black.jpg",
+    "page": "https://de.wikipedia.org/wiki/Messer",
+    "commons": "https://commons.wikimedia.org/wiki/File:Gebel_el-Arak_knife_mp3h8783-black.jpg",
+    "license": "CC BY-SA 3.0 fr",
+    "author": "Rama"
+   }
+  },
+  {
+   "id": "teller",
+   "topic": "kitchen",
+   "art": "der",
+   "de": "Teller",
+   "plural": "-",
+   "ar": "طبق",
+   "photo": {
+    "file": "Tellerset_Anmut_Platinum,_V&B_(2).jpg",
+    "page": "https://de.wikipedia.org/wiki/Teller",
+    "commons": "https://commons.wikimedia.org/wiki/File:Tellerset_Anmut_Platinum,_V%26B_(2).jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "McArthurGlen Designer Outlets\nderivative work: Hic et nunc"
+   }
+  },
+  {
+   "id": "tasse",
+   "topic": "kitchen",
+   "art": "die",
+   "de": "Tasse",
+   "plural": "Tassen",
+   "ar": "فنجان",
+   "photo": {
+    "file": "Kaffeetasse_halbhoch_Golddekor_05,_KPM.jpg",
+    "page": "https://de.wikipedia.org/wiki/Tasse",
+    "commons": "https://commons.wikimedia.org/wiki/File:Kaffeetasse_halbhoch_Golddekor_05,_KPM.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Christoph Kaiser"
+   }
+  },
+  {
+   "id": "glas",
+   "topic": "kitchen",
+   "art": "das",
+   "de": "Glas",
+   "plural": "Gläser",
+   "ar": "كوباية",
+   "photo": {
+    "file": "Drinkware.jpg",
+    "page": "https://de.wikipedia.org/wiki/Trinkglas",
+    "commons": "https://commons.wikimedia.org/wiki/File:Drinkware.jpg",
+    "license": "CC0",
+    "author": "rawpixel.com"
+   }
+  },
+  {
+   "id": "flasche",
+   "topic": "kitchen",
+   "art": "die",
+   "de": "Flasche",
+   "plural": "Flaschen",
+   "ar": "إزازة",
+   "photo": {
+    "file": "Bouteille.jpg",
+    "page": "https://de.wikipedia.org/wiki/Flasche",
+    "commons": "https://commons.wikimedia.org/wiki/File:Bouteille.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Aurélien Mole"
+   }
+  },
+  {
+   "id": "topf",
+   "topic": "kitchen",
+   "art": "der",
+   "de": "Topf",
+   "plural": "Töpfe",
+   "ar": "حلة",
+   "photo": {
+    "file": "Grapen.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kochtopf",
+    "commons": "https://commons.wikimedia.org/wiki/File:Grapen.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Photographed by User:Bullenwächter"
+   }
+  },
+  {
+   "id": "pfanne",
+   "topic": "kitchen",
+   "art": "die",
+   "de": "Pfanne",
+   "plural": "Pfannen",
+   "ar": "طاسة",
+   "photo": {
+    "file": "Pfanne_(Antihaftbeschichtung).jpg",
+    "page": "https://de.wikipedia.org/wiki/Pfanne",
+    "commons": "https://commons.wikimedia.org/wiki/File:Pfanne_(Antihaftbeschichtung).jpg",
+    "license": "CC BY-SA 3.0",
+    "author": ""
+   }
+  },
+  {
+   "id": "birne",
+   "topic": "kitchen",
+   "art": "die",
+   "de": "Birne",
+   "plural": "Birnen",
+   "ar": "كمثرى",
+   "photo": {
+    "file": "Illustration_Pyrus_communis0.jpg",
+    "page": "https://de.wikipedia.org/wiki/Birnen",
+    "commons": "https://commons.wikimedia.org/wiki/File:Illustration_Pyrus_communis0.jpg",
+    "license": "Public domain",
+    "author": ""
+   }
+  },
+  {
+   "id": "kirsche",
+   "topic": "kitchen",
+   "art": "die",
+   "de": "Kirsche",
+   "plural": "Kirschen",
+   "ar": "كرز",
+   "photo": {
+    "file": "CILIEGIO_SECOLARE_A_BESANA_IN_BRIANZA.JPG",
+    "page": "https://de.wikipedia.org/wiki/Vogelkirsche",
+    "commons": "https://commons.wikimedia.org/wiki/File:CILIEGIO_SECOLARE_A_BESANA_IN_BRIANZA.JPG",
+    "license": "Public domain",
+    "author": "Fabrizio Mapelli"
+   }
+  },
+  {
+   "id": "pfirsich",
+   "topic": "kitchen",
+   "art": "der",
+   "de": "Pfirsich",
+   "plural": "Pfirsiche",
+   "ar": "خوخ",
+   "photo": {
+    "file": "Prof._Dr._Thomé's_Flora_von_Deutschland,_Österreich_und_der_Schweiz,_in_Wort_und_Bild,_für_Schule_und_Haus;_mit_..._Tafeln_..._von_Walter_Müller_(Pl._393)_(7982408858).jpg",
+    "page": "https://de.wikipedia.org/wiki/Pfirsich",
+    "commons": "https://commons.wikimedia.org/wiki/File:Prof._Dr._Thom%C3%A9%27s_Flora_von_Deutschland,_%C3%96sterreich_und_der_Schweiz,_in_Wort_und_Bild,_f%C3%BCr_Schule_und_Haus;_mit_..._Tafeln_..._von_Walter_M%C3%BCller_(Pl._393)_(7982408858).jpg",
+    "license": "Public domain",
+    "author": "Migula, Walter; Thomé, Otto W."
+   }
+  },
+  {
+   "id": "wassermelone",
+   "topic": "kitchen",
+   "art": "die",
+   "de": "Wassermelone",
+   "plural": "Wassermelonen",
+   "ar": "بطيخ",
+   "photo": {
+    "file": "Watermelon-garden.jpg",
+    "page": "https://de.wikipedia.org/wiki/Wassermelone",
+    "commons": "https://commons.wikimedia.org/wiki/File:Watermelon-garden.jpg",
+    "license": "CC BY 2.0",
+    "author": "Kumon"
+   }
+  },
+  {
+   "id": "paprika",
+   "topic": "kitchen",
+   "art": "die",
+   "de": "Paprika",
+   "plural": "Paprikas",
+   "ar": "فلفل رومي",
+   "photo": {
+    "file": "Capsicum_annuum_-_Köhler–s_Medizinal-Pflanzen-027.jpg",
+    "page": "https://de.wikipedia.org/wiki/Spanischer_Pfeffer",
+    "commons": "https://commons.wikimedia.org/wiki/File:Capsicum_annuum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-027.jpg",
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen"
+   }
+  },
+  {
+   "id": "salat",
+   "topic": "kitchen",
+   "art": "der",
+   "de": "Salat",
+   "plural": "Salate",
+   "ar": "سلطة",
+   "photo": {
+    "file": "Salad_(4).jpg",
+    "page": "https://de.wikipedia.org/wiki/Blattsalat",
+    "commons": "https://commons.wikimedia.org/wiki/File:Salad_(4).jpg",
+    "license": "Public domain",
+    "author": "Poecus"
+   }
+  },
+  {
+   "id": "pilz",
+   "topic": "kitchen",
+   "art": "der",
+   "de": "Pilz",
+   "plural": "Pilze",
+   "ar": "مشروم",
+   "photo": {
+    "file": "2012-02-13_Agaricus_campestris_L_199587_crop.jpg",
+    "page": "https://de.wikipedia.org/wiki/Champignons",
+    "commons": "https://commons.wikimedia.org/wiki/File:2012-02-13_Agaricus_campestris_L_199587_crop.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "This image was created by user Byrain at Mushroom Observer, a source for mycological images.You can contact this user he"
+   }
+  },
+  {
+   "id": "knoblauch",
+   "topic": "kitchen",
+   "art": "der",
+   "de": "Knoblauch",
+   "plural": "-",
+   "ar": "توم",
+   "photo": {
+    "file": "Garlic_bulbs_and_cloves.jpg",
+    "page": "https://de.wikipedia.org/wiki/Knoblauch",
+    "commons": "https://commons.wikimedia.org/wiki/File:Garlic_bulbs_and_cloves.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus"
+   }
+  },
+  {
+   "id": "honig",
+   "topic": "kitchen",
+   "art": "der",
+   "de": "Honig",
+   "plural": "-",
+   "ar": "عسل",
+   "photo": {
+    "file": "Runny_hunny.jpg",
+    "page": "https://de.wikipedia.org/wiki/Honig",
+    "commons": "https://commons.wikimedia.org/wiki/File:Runny_hunny.jpg",
+    "license": "Public domain",
+    "author": "Scott Bauer, USDA ARS"
+   }
+  },
+  {
+   "id": "schokolade",
+   "topic": "kitchen",
+   "art": "die",
+   "de": "Schokolade",
+   "plural": "Schokoladen",
+   "ar": "شيكولاتة",
+   "photo": {
+    "file": "Schokolade-schwarz-braun-weiss.jpg",
+    "page": "https://de.wikipedia.org/wiki/Schokolade",
+    "commons": "https://commons.wikimedia.org/wiki/File:Schokolade-schwarz-braun-weiss.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Simon A. Eugster"
+   }
+  },
+  {
+   "id": "pizza",
+   "topic": "kitchen",
+   "art": "die",
+   "de": "Pizza",
+   "plural": "Pizzen",
+   "ar": "بيتزا",
+   "photo": {
+    "file": "Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+    "page": "https://de.wikipedia.org/wiki/Pizza",
+    "commons": "https://commons.wikimedia.org/wiki/File:Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Valerio Capello at English Wikipedia"
+   }
+  },
+  {
+   "id": "kamera",
+   "topic": "devices",
+   "art": "die",
+   "de": "Kamera",
+   "plural": "Kameras",
+   "ar": "كاميرا",
+   "photo": {
+    "file": "Leica_Nr.619125_Holler_Swakopmund.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kamera",
+    "commons": "https://commons.wikimedia.org/wiki/File:Leica_Nr.619125_Holler_Swakopmund.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Olga Ernst &amp; Hp.Baumeler"
+   }
+  },
+  {
+   "id": "telefon",
+   "topic": "devices",
+   "art": "das",
+   "de": "Telefon",
+   "plural": "Telefone",
+   "ar": "تليفون",
+   "photo": {
+    "file": "FeTAP612-2.jpg",
+    "page": "https://de.wikipedia.org/wiki/Telefon",
+    "commons": "https://commons.wikimedia.org/wiki/File:FeTAP612-2.jpg",
+    "license": "Public domain",
+    "author": "Hubert Berberich (HubiB)"
+   }
+  },
+  {
+   "id": "kuehlschrank",
+   "topic": "devices",
+   "art": "der",
+   "de": "Kühlschrank",
+   "plural": "Kühlschränke",
+   "ar": "تلاجة",
+   "photo": {
+    "file": "Open_refrigerator_with_food_at_night.jpg",
+    "page": "https://de.wikipedia.org/wiki/K%C3%BChlschrank",
+    "commons": "https://commons.wikimedia.org/wiki/File:Open_refrigerator_with_food_at_night.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "W.carter"
+   }
+  },
+  {
+   "id": "waschmaschine",
+   "topic": "devices",
+   "art": "die",
+   "de": "Waschmaschine",
+   "plural": "Waschmaschinen",
+   "ar": "غسالة",
+   "photo": {
+    "file": "IFA_2010_Internationale_Funkausstellung_Berlin_111.JPG",
+    "page": "https://de.wikipedia.org/wiki/Waschmaschine",
+    "commons": "https://commons.wikimedia.org/wiki/File:IFA_2010_Internationale_Funkausstellung_Berlin_111.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Bin im Garten"
+   }
+  },
+  {
+   "id": "gitarre",
+   "topic": "devices",
+   "art": "die",
+   "de": "Gitarre",
+   "plural": "Gitarren",
+   "ar": "جيتار",
+   "photo": {
+    "file": "Sonic_Vista_Stduios_(Guitar_Wall).jpg",
+    "page": "https://de.wikipedia.org/wiki/Gitarre",
+    "commons": "https://commons.wikimedia.org/wiki/File:Sonic_Vista_Stduios_(Guitar_Wall).jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Jonathan Tessier"
+   }
+  },
+  {
+   "id": "klavier",
+   "topic": "devices",
+   "art": "das",
+   "de": "Klavier",
+   "plural": "Klaviere",
+   "ar": "بيانو",
+   "photo": {
+    "file": "Two_pianos_-_grand_piano_and_upright_piano.jpg",
+    "page": "https://de.wikipedia.org/wiki/Klavier",
+    "commons": "https://commons.wikimedia.org/wiki/File:Two_pianos_-_grand_piano_and_upright_piano.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "The original photos of the grand piano and the upright piano:Steinway &amp; Sons, 10 Rondenbarg, Hamburg D-22525, German"
+   }
+  },
+  {
+   "id": "regenschirm",
+   "topic": "devices",
+   "art": "der",
+   "de": "Regenschirm",
+   "plural": "Regenschirme",
+   "ar": "شمسية",
+   "photo": {
+    "file": "Regenschirme.JPG",
+    "page": "https://de.wikipedia.org/wiki/Regenschirm",
+    "commons": "https://commons.wikimedia.org/wiki/File:Regenschirme.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Ludwig Urning"
+   }
+  },
+  {
+   "id": "koffer",
+   "topic": "devices",
+   "art": "der",
+   "de": "Koffer",
+   "plural": "-",
+   "ar": "شنطة سفر",
+   "photo": {
+    "file": "Reisegepäck.JPG",
+    "page": "https://de.wikipedia.org/wiki/Koffer",
+    "commons": "https://commons.wikimedia.org/wiki/File:Reisegep%C3%A4ck.JPG",
+    "license": "Public domain",
+    "author": "User:Mattes"
+   }
+  },
+  {
+   "id": "kerze",
+   "topic": "devices",
+   "art": "die",
+   "de": "Kerze",
+   "plural": "Kerzen",
+   "ar": "شمعة",
+   "photo": {
+    "file": "Candle_black.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kerze",
+    "commons": "https://commons.wikimedia.org/wiki/File:Candle_black.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Candle.jpg: Bangin\nderivative work: Setreset (talk)"
+   }
+  },
+  {
+   "id": "besen",
+   "topic": "devices",
+   "art": "der",
+   "de": "Besen",
+   "plural": "-",
+   "ar": "مقشة",
+   "photo": {
+    "file": "Verschiedene_handgefertigte_Bürsten_und_Besen.JPG",
+    "page": "https://de.wikipedia.org/wiki/Besen",
+    "commons": "https://commons.wikimedia.org/wiki/File:Verschiedene_handgefertigte_B%C3%BCrsten_und_Besen.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "4028mdk09"
+   }
+  },
+  {
+   "id": "ball",
+   "topic": "devices",
+   "art": "der",
+   "de": "Ball",
+   "plural": "Bälle",
+   "ar": "كورة",
+   "photo": {
+    "file": "Many_balls.jpg",
+    "page": "https://de.wikipedia.org/wiki/Ball",
+    "commons": "https://commons.wikimedia.org/wiki/File:Many_balls.jpg",
+    "license": "CC0",
+    "author": "Conrad 7"
+   }
+  },
+  {
+   "id": "fussball",
+   "topic": "devices",
+   "art": "der",
+   "de": "Fußball",
+   "plural": "Fußbälle",
+   "ar": "كورة قدم",
+   "photo": {
+    "file": "Football_in_Bloomington,_Indiana,_1995.jpg",
+    "page": "https://de.wikipedia.org/wiki/Fu%C3%9Fball",
+    "commons": "https://commons.wikimedia.org/wiki/File:Football_in_Bloomington,_Indiana,_1995.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Rick Dikeman"
+   }
+  },
+  {
+   "id": "wald",
+   "topic": "outdoors",
+   "art": "der",
+   "de": "Wald",
+   "plural": "Wälder",
+   "ar": "غابة",
+   "photo": {
+    "file": "Herbstwald_bei_Hülshof_Gem._Bad_Endbach.jpg",
+    "page": "https://de.wikipedia.org/wiki/Wald",
+    "commons": "https://commons.wikimedia.org/wiki/File:Herbstwald_bei_H%C3%BClshof_Gem._Bad_Endbach.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "H2OMy at de.wikipedia"
+   }
+  },
+  {
+   "id": "see",
+   "topic": "outdoors",
+   "art": "der",
+   "de": "See",
+   "plural": "Seen",
+   "ar": "بحيرة",
+   "photo": {
+    "file": "Gentau_Pic_du_Midi_Ossau.jpg",
+    "page": "https://de.wikipedia.org/wiki/See",
+    "commons": "https://commons.wikimedia.org/wiki/File:Gentau_Pic_du_Midi_Ossau.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Myrabella"
+   }
+  },
+  {
+   "id": "schmetterling",
+   "topic": "outdoors",
+   "art": "der",
+   "de": "Schmetterling",
+   "plural": "Schmetterlinge",
+   "ar": "فراشة",
+   "photo": {
+    "file": "Ratzeburg_Waldverderbnis_Tafel_54_(noisy_background).jpg",
+    "page": "https://de.wikipedia.org/wiki/Schmetterlinge",
+    "commons": "https://commons.wikimedia.org/wiki/File:Ratzeburg_Waldverderbnis_Tafel_54_(noisy_background).jpg",
+    "license": "Public domain",
+    "author": "Tieffenbach"
+   }
+  },
+  {
+   "id": "biene",
+   "topic": "outdoors",
+   "art": "die",
+   "de": "Biene",
+   "plural": "Bienen",
+   "ar": "نحلة",
+   "photo": {
+    "file": "Apis_mellifera_Western_honey_bee.jpg",
+    "page": "https://de.wikipedia.org/wiki/Westliche_Honigbiene",
+    "commons": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg",
+    "license": "CC BY-SA 2.5",
+    "author": "Andreas Trepte"
+   }
+  },
+  {
+   "id": "feuer",
+   "topic": "outdoors",
+   "art": "das",
+   "de": "Feuer",
+   "plural": "-",
+   "ar": "نار",
+   "photo": {
+    "file": "Fire02.jpg",
+    "page": "https://de.wikipedia.org/wiki/Feuer",
+    "commons": "https://commons.wikimedia.org/wiki/File:Fire02.jpg",
+    "license": "GFDL 1.2",
+    "author": "Fir0002"
+   }
+  },
+  {
+   "id": "regenbogen",
+   "topic": "outdoors",
+   "art": "der",
+   "de": "Regenbogen",
+   "plural": "Regenbögen",
+   "ar": "قوس قزح",
+   "photo": {
+    "file": "Double-alaskan-rainbow.jpg",
+    "page": "https://de.wikipedia.org/wiki/Regenbogen",
+    "commons": "https://commons.wikimedia.org/wiki/File:Double-alaskan-rainbow.jpg",
+    "license": "CC BY-SA 2.5",
+    "author": "Eric Rolph at English Wikipedia"
+   }
+  },
+  {
+   "id": "stein",
+   "topic": "outdoors",
+   "art": "der",
+   "de": "Stein",
+   "plural": "Steine",
+   "ar": "حجر",
+   "photo": {
+    "file": "Bemooste_Bachsteine.JPG",
+    "page": "https://de.wikipedia.org/wiki/Stein",
+    "commons": "https://commons.wikimedia.org/wiki/File:Bemooste_Bachsteine.JPG",
+    "license": "CC BY-SA 3.0 de",
+    "author": "Frank Liebig"
+   }
+  },
+  {
+   "id": "sand",
+   "topic": "outdoors",
+   "art": "der",
+   "de": "Sand",
+   "plural": "-",
+   "ar": "رمل",
+   "photo": {
+    "file": "Morocco_Africa_Flickr_Rosino_December_2005_84527213.jpg",
+    "page": "https://de.wikipedia.org/wiki/Sand",
+    "commons": "https://commons.wikimedia.org/wiki/File:Morocco_Africa_Flickr_Rosino_December_2005_84527213.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Rosino on Flickr"
+   }
+  },
+  {
+   "id": "dorf",
+   "topic": "town",
+   "art": "das",
+   "de": "Dorf",
+   "plural": "Dörfer",
+   "ar": "قرية",
+   "photo": {
+    "file": "Bralitz_von_Westen.jpg",
+    "page": "https://de.wikipedia.org/wiki/Dorf",
+    "commons": "https://commons.wikimedia.org/wiki/File:Bralitz_von_Westen.jpg",
+    "license": "GFDL 1.2",
+    "author": "Eva K. / Eva K."
+   }
+  },
+  {
+   "id": "stadt",
+   "topic": "town",
+   "art": "die",
+   "de": "Stadt",
+   "plural": "Städte",
+   "ar": "مدينة",
+   "photo": {
+    "file": "St_Peter's_Square,_Vatican_City_-_April_2007.jpg",
+    "page": "https://de.wikipedia.org/wiki/Stadt",
+    "commons": "https://commons.wikimedia.org/wiki/File:St_Peter%27s_Square,_Vatican_City_-_April_2007.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Diliff"
+   }
+  },
+  {
+   "id": "turm",
+   "topic": "town",
+   "art": "der",
+   "de": "Turm",
+   "plural": "Türme",
+   "ar": "برج",
+   "photo": {
+    "file": "Towers_Munich_Petueltunnel_Olympia-Toren_BMW-Hoofdkantoor_muurwerk_en_staaltoren_lucht_afzuigen_uit_tunnel_via_schoorsteen_Luc_Deleu_Foto_2005_Wolfgang_Pehlemann_Wiesbaden_PICT0067.jpg",
+    "page": "https://de.wikipedia.org/wiki/Turm",
+    "commons": "https://commons.wikimedia.org/wiki/File:Towers_Munich_Petueltunnel_Olympia-Toren_BMW-Hoofdkantoor_muurwerk_en_staaltoren_lucht_afzuigen_uit_tunnel_via_schoorsteen_Luc_Deleu_Foto_2005_Wolfgang_Pehlemann_Wiesbaden_PICT0067.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Wolfgang Pehlemann"
+   }
+  },
+  {
+   "id": "bauernhof",
+   "topic": "town",
+   "art": "der",
+   "de": "Bauernhof",
+   "plural": "Bauernhöfe",
+   "ar": "مزرعة",
+   "photo": {
+    "file": "Betschdorf_-Ferme_à_colombages(2).jpg",
+    "page": "https://de.wikipedia.org/wiki/Bauernhof",
+    "commons": "https://commons.wikimedia.org/wiki/File:Betschdorf_-Ferme_%C3%A0_colombages(2).jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Ji-Elle"
+   }
+  },
+  {
+   "id": "zoo",
+   "topic": "town",
+   "art": "der",
+   "de": "Zoo",
+   "plural": "Zoos",
+   "ar": "جنينة حيوان",
+   "photo": {
+    "file": "Hagenbeck_Robbenfütterung.jpg",
+    "page": "https://de.wikipedia.org/wiki/Zoo",
+    "commons": "https://commons.wikimedia.org/wiki/File:Hagenbeck_Robbenf%C3%BCtterung.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Anneke Wolf at German Wikipedia\n\n(Original text: Anneke Wolf)"
+   }
+  },
+  {
+   "id": "spielplatz",
+   "topic": "town",
+   "art": "der",
+   "de": "Spielplatz",
+   "plural": "Spielplätze",
+   "ar": "ملعب أطفال",
+   "photo": {
+    "file": "Wasserspiele2.jpg",
+    "page": "https://de.wikipedia.org/wiki/Spielplatz",
+    "commons": "https://commons.wikimedia.org/wiki/File:Wasserspiele2.jpg",
+    "license": "CC BY 2.5",
+    "author": "Peng"
+   }
+  },
+  {
+   "id": "stadion",
+   "topic": "town",
+   "art": "das",
+   "de": "Stadion",
+   "plural": "Stadien",
+   "ar": "استاد",
+   "photo": {
+    "file": "Olympia-stadion.jpg",
+    "page": "https://de.wikipedia.org/wiki/Stadion",
+    "commons": "https://commons.wikimedia.org/wiki/File:Olympia-stadion.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "The original uploader was Drno at German Wikipedia."
+   }
+  },
+  {
+   "id": "rathaus",
+   "topic": "town",
+   "art": "das",
+   "de": "Rathaus",
+   "plural": "Rathäuser",
+   "ar": "مبنى البلدية",
+   "photo": {
+    "file": "Wien_Rathaus_hochauflösend.jpg",
+    "page": "https://de.wikipedia.org/wiki/Rathaus",
+    "commons": "https://commons.wikimedia.org/wiki/File:Wien_Rathaus_hochaufl%C3%B6send.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Thomas Ledl"
+   }
+  },
+  {
+   "id": "brunnen",
+   "topic": "town",
+   "art": "der",
+   "de": "Brunnen",
+   "plural": "-",
+   "ar": "نافورة",
+   "photo": {
+    "file": "Brunnen_Kloster_Wald.JPG",
+    "page": "https://de.wikipedia.org/wiki/Brunnen",
+    "commons": "https://commons.wikimedia.org/wiki/File:Brunnen_Kloster_Wald.JPG",
+    "license": "CC BY 2.5",
+    "author": "Zollernalb"
+   }
+  }
+ ]
+}
