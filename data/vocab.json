@@ -51,6 +51,21 @@
  ],
  "words": [
   {
+   "id": "mutter",
+   "topic": "family",
+   "art": "die",
+   "de": "Mutter",
+   "plural": "Mütter",
+   "ar": "أم",
+   "photo": {
+    "file": "Mother and her little daughter 1 april event Brielle.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Mother_and_her_little_daughter_1_april_event_Brielle.JPG",
+    "commons": "https://commons.wikimedia.org/wiki/File:Mother_and_her_little_daughter_1_april_event_Brielle.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Peter van der Sluijs"
+   }
+  },
+  {
    "id": "vater",
    "topic": "family",
    "art": "der",
@@ -63,6 +78,36 @@
     "commons": "https://commons.wikimedia.org/wiki/File:Father_and_son_27.jpg",
     "license": "CC BY-SA 3.0",
     "author": "No machine-readable author provided. Onkelbo~commonswiki assumed (based on copyright claims)."
+   }
+  },
+  {
+   "id": "bruder",
+   "topic": "family",
+   "art": "der",
+   "de": "Bruder",
+   "plural": "Brüder",
+   "ar": "أخ",
+   "photo": {
+    "file": "Two brothers together in Bihar, India.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Two_brothers_together_in_Bihar,_India.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Two_brothers_together_in_Bihar,_India.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Saddam19"
+   }
+  },
+  {
+   "id": "schwester",
+   "topic": "family",
+   "art": "die",
+   "de": "Schwester",
+   "plural": "Schwestern",
+   "ar": "أخت",
+   "photo": {
+    "file": "Two sisters in Bihar, India.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Two_sisters_in_Bihar,_India.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Two_sisters_in_Bihar,_India.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Saddam19"
    }
   },
   {
@@ -93,6 +138,21 @@
     "commons": "https://commons.wikimedia.org/wiki/File:Baby_aan_de_borst.jpg",
     "license": "Public domain",
     "author": "USDA (United States Department of Agriculture)"
+   }
+  },
+  {
+   "id": "grossvater",
+   "topic": "family",
+   "art": "der",
+   "de": "Großvater",
+   "plural": "Großväter",
+   "ar": "جد (جدو)",
+   "photo": {
+    "file": "Bratan Bali Indonesia Grandfather-and-grandson-after-Puja-01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bratan_Bali_Indonesia_Grandfather-and-grandson-after-Puja-01.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Bratan_Bali_Indonesia_Grandfather-and-grandson-after-Puja-01.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "CEphoto, Uwe Aranas"
    }
   },
   {
@@ -213,6 +273,21 @@
     "commons": "https://commons.wikimedia.org/wiki/File:Tomatoes-on-the-bush.jpg",
     "license": "CC BY-SA 3.0",
     "author": ""
+   }
+  },
+  {
+   "id": "kartoffel",
+   "topic": "food",
+   "art": "die",
+   "de": "Kartoffel",
+   "plural": "Kartoffeln",
+   "ar": "بطاطس",
+   "photo": {
+    "file": "Solanales - Solanum tuberosum - 4.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Solanales_-_Solanum_tuberosum_-_4.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Solanales_-_Solanum_tuberosum_-_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "DenesFeri"
    }
   },
   {
@@ -696,6 +771,21 @@
    }
   },
   {
+   "id": "spiegel",
+   "topic": "house",
+   "art": "der",
+   "de": "Spiegel",
+   "plural": "-",
+   "ar": "مراية",
+   "photo": {
+    "file": "Mirror MET DP106620.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mirror_MET_DP106620.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Mirror_MET_DP106620.jpg",
+    "license": "CC0",
+    "author": ""
+   }
+  },
+  {
    "id": "treppe",
    "topic": "house",
    "art": "die",
@@ -723,6 +813,21 @@
     "commons": "https://commons.wikimedia.org/wiki/File:EB1911_Carpet_-_Fig._4.%E2%80%94Persian_rug_using_tapestry_weave.jpg",
     "license": "Public domain",
     "author": "AnonymousUnknown author"
+   }
+  },
+  {
+   "id": "schule",
+   "topic": "places",
+   "art": "die",
+   "de": "Schule",
+   "plural": "Schulen",
+   "ar": "مدرسة",
+   "photo": {
+    "file": "Rajshahi University School.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rajshahi_University_School.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Rajshahi_University_School.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Rocky Masum"
    }
   },
   {
@@ -783,6 +888,21 @@
     "commons": "https://commons.wikimedia.org/wiki/File:Peter_Stehlik_2012.01.11_004a.jpg",
     "license": "CC BY 3.0",
     "author": "Peter Stehlik PS-2507"
+   }
+  },
+  {
+   "id": "bank",
+   "topic": "places",
+   "art": "die",
+   "de": "Bank",
+   "plural": "Banken",
+   "ar": "بنك",
+   "photo": {
+    "file": "U.S. National Bank Building -- Galveston.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U.S._National_Bank_Building_--_Galveston.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:U.S._National_Bank_Building_--_Galveston.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Jim Evans"
    }
   },
   {
@@ -1086,6 +1206,21 @@
    }
   },
   {
+   "id": "hose",
+   "topic": "clothes",
+   "art": "die",
+   "de": "Hose",
+   "plural": "Hosen",
+   "ar": "بنطلون",
+   "photo": {
+    "file": "Women's Levi's jeans inside out.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Women%27s_Levi%27s_jeans_inside_out.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Women%27s_Levi%27s_jeans_inside_out.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "1Veertje"
+   }
+  },
+  {
    "id": "hemd",
    "topic": "clothes",
    "art": "das",
@@ -1203,6 +1338,21 @@
     "commons": "https://commons.wikimedia.org/wiki/File:Camiseta-negra.jpg",
     "license": "CC BY 3.0",
     "author": "Camisetas"
+   }
+  },
+  {
+   "id": "rock",
+   "topic": "clothes",
+   "art": "der",
+   "de": "Rock",
+   "plural": "Röcke",
+   "ar": "جيبة",
+   "photo": {
+    "file": "Green Poplin Skirt by Sybil Connolly- full length front.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_Poplin_Skirt_by_Sybil_Connolly-_full_length_front.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Green_Poplin_Skirt_by_Sybil_Connolly-_full_length_front.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Hunt Museum and Inés Rivilla López"
    }
   },
   {
@@ -1626,6 +1776,21 @@
    }
   },
   {
+   "id": "bein",
+   "topic": "body",
+   "art": "das",
+   "de": "Bein",
+   "plural": "Beine",
+   "ar": "رجل (من الفخذ للقدم)",
+   "photo": {
+    "file": "Legs-and-heels.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Legs-and-heels.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Legs-and-heels.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Jean-Christophe Destailleur"
+   }
+  },
+  {
    "id": "buch",
    "topic": "school",
    "art": "das",
@@ -1938,6 +2103,21 @@
     "commons": "https://commons.wikimedia.org/wiki/File:Ulm2-midsize.jpg",
     "license": "CC BY-SA 3.0",
     "author": ""
+   }
+  },
+  {
+   "id": "stern",
+   "topic": "nature",
+   "art": "der",
+   "de": "Stern",
+   "plural": "Sterne",
+   "ar": "نجمة",
+   "photo": {
+    "file": "The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg",
+    "license": "Public domain",
+    "author": "NASA/SDO (AIA)"
    }
   },
   {
