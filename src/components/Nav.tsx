@@ -32,7 +32,7 @@ export default function Nav() {
           ))}
           {user?.isAdmin && <Link href="/admin/" className="rounded-full px-3 py-1.5 text-accent hover:bg-card">لوحة التحكم</Link>}
         </nav>
-        <div className="num flex flex-1 items-center justify-end gap-3 text-xs font-bold text-muted md:flex-none" title="XP ومستوى وسلسلة الأيام">
+        <div className="num flex flex-1 items-center justify-end gap-2 whitespace-nowrap text-xs font-bold text-muted md:flex-none" title="XP ومستوى وسلسلة الأيام">
           <span>Lv {level(s.xp)}</span><span>{s.xp} XP</span><span className="inline-flex items-center gap-0.5 text-accent"><Flame />{s.streak}</span>
         </div>
         {user === undefined ? null : user ? (
