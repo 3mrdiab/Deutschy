@@ -1,0 +1,170 @@
+# topic | art | de | plural | ar | wiki candidates (de.wikipedia titles, | separated)
+@family|العيلة|Familie
+die|Mutter|Mütter|أم|Mutter
+der|Vater|Väter|أب|Vater
+der|Bruder|Brüder|أخ|Bruder
+die|Schwester|Schwestern|أخت|Schwester
+das|Kind|Kinder|طفل|Kind
+das|Baby|Babys|بيبي / رضيع|Säugling
+die|Großmutter|Großmütter|جدة (تيته)|Großmutter
+der|Großvater|Großväter|جد (جدو)|Großvater
+die|Familie|Familien|عيلة|Familie
+@food|الأكل|Essen
+der|Apfel|Äpfel|تفاحة|Kulturapfel
+die|Banane|Bananen|موزة|Bananen
+das|Brot|Brote|عيش|Brot
+der|Käse|-|جبنة|Käse
+das|Ei|Eier|بيضة|Hühnerei
+der|Reis|-|رز|Reis (Lebensmittel)|Reis
+die|Tomate|Tomaten|طماطم|Tomate
+die|Kartoffel|Kartoffeln|بطاطس|Kartoffel
+die|Zwiebel|Zwiebeln|بصلة|Zwiebel
+die|Orange|Orangen|برتقالة|Orange (Frucht)|Apfelsine
+der|Zucker|-|سكر|Haushaltszucker|Zucker
+das|Salz|-|ملح|Speisesalz
+die|Butter|-|زبدة|Butter
+das|Fleisch|-|لحمة|Fleisch
+das|Huhn|Hühner|فرخة / دجاجة|Haushuhn
+der|Fisch|Fische|سمكة|Fische
+die|Gurke|Gurken|خيارة|Gurke
+die|Erdbeere|Erdbeeren|فراولة|Gartenerdbeere
+die|Traube|Trauben|عنب|Weintraube
+die|Suppe|Suppen|شوربة|Suppe
+der|Kuchen|-|كيكة|Kuchen
+die|Nudel|Nudeln|مكرونة|Nudel
+die|Karotte|Karotten|جزرة|Karotte
+die|Zitrone|Zitronen|ليمونة|Zitrone
+@drinks|المشروبات|Getränke
+das|Wasser|-|مياه|Trinkwasser|Wasser
+die|Milch|-|لبن|Milch
+der|Kaffee|-|قهوة|Kaffee
+der|Tee|Tees|شاي|Tee
+der|Saft|Säfte|عصير|Fruchtsaft
+@house|البيت|Haus
+das|Haus|Häuser|بيت|Haus
+der|Tisch|Tische|ترابيزة|Tisch
+der|Stuhl|Stühle|كرسي|Stuhl
+das|Bett|Betten|سرير|Bett
+das|Fenster|-|شباك|Fenster
+die|Tür|Türen|باب|Tür
+die|Lampe|Lampen|لمبة / أباجورة|Lampe|Leuchte
+das|Sofa|Sofas|كنبة|Sofa
+die|Küche|Küchen|مطبخ|Küche
+der|Schlüssel|-|مفتاح|Schlüssel
+die|Uhr|Uhren|ساعة|Uhr
+der|Spiegel|-|مراية|Spiegel
+die|Treppe|Treppen|سلم|Treppe
+der|Teppich|Teppiche|سجادة|Teppich
+@places|الأماكن|Stadt
+die|Schule|Schulen|مدرسة|Schule
+der|Bahnhof|Bahnhöfe|محطة قطر|Bahnhof
+der|Flughafen|Flughäfen|مطار|Flughafen
+das|Krankenhaus|Krankenhäuser|مستشفى|Krankenhaus
+der|Supermarkt|Supermärkte|سوبر ماركت|Supermarkt
+die|Bank|Banken|بنك|Kreditinstitut|Bank (Kreditinstitut)
+der|Park|Parks|حديقة|Park
+die|Straße|Straßen|شارع|Straße
+die|Brücke|Brücken|كوبري|Brücke
+das|Restaurant|Restaurants|مطعم|Restaurant
+die|Kirche|Kirchen|كنيسة|Kirchengebäude
+die|Moschee|Moscheen|جامع|Moschee
+der|Markt|Märkte|سوق|Markt (Handel)|Marktplatz
+die|Bibliothek|Bibliotheken|مكتبة|Bibliothek
+die|Apotheke|Apotheken|صيدلية|Apotheke
+das|Hotel|Hotels|فندق|Hotel
+das|Kino|Kinos|سينما|Kino
+das|Museum|Museen|متحف|Museum
+@transport|المواصلات|Verkehr
+das|Auto|Autos|عربية|Kraftwagen|Automobil
+der|Bus|Busse|أتوبيس|Omnibus
+der|Zug|Züge|قطر|Eisenbahn|Zug (Eisenbahn)
+das|Fahrrad|Fahrräder|عجلة|Fahrrad
+das|Flugzeug|Flugzeuge|طيارة|Flugzeug
+das|Taxi|Taxis|تاكسي|Taxi
+die|U-Bahn|U-Bahnen|مترو|U-Bahn
+das|Schiff|Schiffe|مركب / سفينة|Schiff
+das|Motorrad|Motorräder|موتوسيكل|Motorrad
+@clothes|الهدوم|Kleidung
+die|Hose|Hosen|بنطلون|Hose
+das|Hemd|Hemden|قميص|Hemd
+die|Jacke|Jacken|جاكيت|Jacke
+der|Schuh|Schuhe|جزمة|Schuh
+die|Mütze|Mützen|طاقية|Mütze
+das|Kleid|Kleider|فستان|Kleid
+die|Socke|Socken|شراب|Socke
+die|Brille|Brillen|نظارة|Brille
+das|T-Shirt|T-Shirts|تيشيرت|T-Shirt
+der|Rock|Röcke|جيبة|Rock (Kleidungsstück)
+der|Mantel|Mäntel|معطف|Mantel
+der|Hut|Hüte|برنيطة|Hut
+die|Tasche|Taschen|شنطة|Tasche
+der|Gürtel|-|حزام|Gürtel
+@animals|الحيوانات|Tiere
+der|Hund|Hunde|كلب|Haushund
+die|Katze|Katzen|قطة|Hauskatze
+das|Pferd|Pferde|حصان|Hauspferd
+die|Kuh|Kühe|بقرة|Hausrind
+der|Vogel|Vögel|عصفور / طائر|Vögel
+das|Schaf|Schafe|خروف|Hausschaf
+das|Kamel|Kamele|جمل|Kamele
+der|Löwe|Löwen|أسد|Löwe
+der|Elefant|Elefanten|فيل|Elefanten
+der|Esel|-|حمار|Hausesel
+die|Ziege|Ziegen|ماعز|Hausziege
+der|Affe|Affen|قرد|Affen
+die|Ente|Enten|بطة|Enten
+das|Kaninchen|-|أرنب|Kaninchen
+@body|الجسم|Körper
+der|Kopf|Köpfe|راس|Kopf
+die|Hand|Hände|إيد|Hand
+das|Auge|Augen|عين|Auge
+das|Ohr|Ohren|ودن|Ohr
+die|Nase|Nasen|مناخير / أنف|Nase
+der|Mund|Münder|بق / فم|Mund
+der|Fuß|Füße|قدم|Fuß
+das|Haar|Haare|شعر|Haar
+der|Zahn|Zähne|سنة|Zahn
+das|Herz|Herzen|قلب|Herz
+der|Finger|-|صباع|Finger
+der|Arm|Arme|دراع|Arm
+das|Bein|Beine|رجل (من الفخذ للقدم)|Bein
+@school|المدرسة والشغل|Buch
+das|Buch|Bücher|كتاب|Buch
+der|Stift|Stifte|قلم|Kugelschreiber
+der|Computer|-|كمبيوتر|Computer
+das|Handy|Handys|موبايل|Mobiltelefon
+das|Papier|Papiere|ورق|Papier
+die|Tafel|Tafeln|سبورة|Tafel (Schule)|Schultafel
+das|Heft|Hefte|كراسة|Heft
+der|Bleistift|Bleistifte|قلم رصاص|Bleistift
+die|Schere|Scheren|مقص|Schere
+der|Rucksack|Rucksäcke|شنطة ضهر|Rucksack
+das|Lineal|Lineale|مسطرة|Lineal
+die|Zeitung|Zeitungen|جرنان|Zeitung
+@nature|الطبيعة|Natur
+die|Sonne|Sonnen|شمس|Sonne
+der|Mond|Monde|قمر|Mond
+der|Regen|-|مطر|Regen
+der|Schnee|-|تلج|Schnee
+der|Baum|Bäume|شجرة|Baum
+die|Blume|Blumen|وردة / زهرة|Blume
+der|Berg|Berge|جبل|Berg
+das|Meer|Meere|بحر|Meer
+die|Wolke|Wolken|سحابة|Wolke
+der|Fluss|Flüsse|نهر|Fluss
+der|Stern|Sterne|نجمة|Stern
+der|Strand|Strände|شاطئ|Strand
+die|Wüste|Wüsten|صحرا|Wüste
+die|Insel|Inseln|جزيرة|Insel
+@jobs|المهن|Beruf
+der|Arzt|Ärzte|دكتور|Arzt
+der|Lehrer|-|مدرس|Lehrer
+der|Koch|Köche|طباخ|Koch
+der|Polizist|Polizisten|ضابط / شرطي|Polizist|Polizei
+der|Bäcker|-|خباز|Bäcker
+der|Ingenieur|Ingenieure|مهندس|Ingenieur
+der|Pilot|Piloten|طيار|Pilot (Luftfahrt)|Pilot
+der|Friseur|Friseure|حلاق|Friseur
+der|Bauer|Bauern|فلاح|Landwirt
+der|Soldat|Soldaten|جندي|Soldat
+der|Kellner|-|جرسون|Kellner

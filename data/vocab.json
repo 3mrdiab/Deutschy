@@ -1,0 +1,2154 @@
+{
+ "topics": [
+  {
+   "id": "family",
+   "ar": "العيلة"
+  },
+  {
+   "id": "food",
+   "ar": "الأكل"
+  },
+  {
+   "id": "drinks",
+   "ar": "المشروبات"
+  },
+  {
+   "id": "house",
+   "ar": "البيت"
+  },
+  {
+   "id": "places",
+   "ar": "الأماكن"
+  },
+  {
+   "id": "transport",
+   "ar": "المواصلات"
+  },
+  {
+   "id": "clothes",
+   "ar": "الهدوم"
+  },
+  {
+   "id": "animals",
+   "ar": "الحيوانات"
+  },
+  {
+   "id": "body",
+   "ar": "الجسم"
+  },
+  {
+   "id": "school",
+   "ar": "المدرسة والشغل"
+  },
+  {
+   "id": "nature",
+   "ar": "الطبيعة"
+  },
+  {
+   "id": "jobs",
+   "ar": "المهن"
+  }
+ ],
+ "words": [
+  {
+   "id": "vater",
+   "topic": "family",
+   "art": "der",
+   "de": "Vater",
+   "plural": "Väter",
+   "ar": "أب",
+   "photo": {
+    "file": "Father_and_son_27.jpg",
+    "page": "https://de.wikipedia.org/wiki/Vater",
+    "commons": "https://commons.wikimedia.org/wiki/File:Father_and_son_27.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "No machine-readable author provided. Onkelbo~commonswiki assumed (based on copyright claims)."
+   }
+  },
+  {
+   "id": "kind",
+   "topic": "family",
+   "art": "das",
+   "de": "Kind",
+   "plural": "Kinder",
+   "ar": "طفل",
+   "photo": {
+    "file": "Little_girl_of_Don_Som.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kindheit",
+    "commons": "https://commons.wikimedia.org/wiki/File:Little_girl_of_Don_Som.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Basile Morin"
+   }
+  },
+  {
+   "id": "baby",
+   "topic": "family",
+   "art": "das",
+   "de": "Baby",
+   "plural": "Babys",
+   "ar": "بيبي / رضيع",
+   "photo": {
+    "file": "Baby_aan_de_borst.jpg",
+    "page": "https://de.wikipedia.org/wiki/S%C3%A4ugling",
+    "commons": "https://commons.wikimedia.org/wiki/File:Baby_aan_de_borst.jpg",
+    "license": "Public domain",
+    "author": "USDA (United States Department of Agriculture)"
+   }
+  },
+  {
+   "id": "familie",
+   "topic": "family",
+   "art": "die",
+   "de": "Familie",
+   "plural": "Familien",
+   "ar": "عيلة",
+   "photo": {
+    "file": "Family_Portrait.jpg",
+    "page": "https://de.wikipedia.org/wiki/Familie",
+    "commons": "https://commons.wikimedia.org/wiki/File:Family_Portrait.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Eric Ward"
+   }
+  },
+  {
+   "id": "apfel",
+   "topic": "food",
+   "art": "der",
+   "de": "Apfel",
+   "plural": "Äpfel",
+   "ar": "تفاحة",
+   "photo": {
+    "file": "Red Apple.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Apple.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Red_Apple.jpg",
+    "license": "CC BY 2.0",
+    "author": "Abhijit Tembhekar from Mumbai, India"
+   }
+  },
+  {
+   "id": "banane",
+   "topic": "food",
+   "art": "die",
+   "de": "Banane",
+   "plural": "Bananen",
+   "ar": "موزة",
+   "photo": {
+    "file": "Bunch of bananas on sale.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bunch_of_bananas_on_sale.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Bunch_of_bananas_on_sale.jpg",
+    "license": "CC0",
+    "author": "Wilfredor"
+   }
+  },
+  {
+   "id": "brot",
+   "topic": "food",
+   "art": "das",
+   "de": "Brot",
+   "plural": "Brote",
+   "ar": "عيش",
+   "photo": {
+    "file": "Various_grains.jpg",
+    "page": "https://de.wikipedia.org/wiki/Brot",
+    "commons": "https://commons.wikimedia.org/wiki/File:Various_grains.jpg",
+    "license": "Public domain",
+    "author": "Peggy Greb, USDA ARS"
+   }
+  },
+  {
+   "id": "kaese",
+   "topic": "food",
+   "art": "der",
+   "de": "Käse",
+   "plural": "-",
+   "ar": "جبنة",
+   "photo": {
+    "file": "Cheese_shop_window_Paris.jpg",
+    "page": "https://de.wikipedia.org/wiki/K%C3%A4se",
+    "commons": "https://commons.wikimedia.org/wiki/File:Cheese_shop_window_Paris.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Hu Totya"
+   }
+  },
+  {
+   "id": "ei",
+   "topic": "food",
+   "art": "das",
+   "de": "Ei",
+   "plural": "Eier",
+   "ar": "بيضة",
+   "photo": {
+    "file": "White_chicken_egg_square.jpg",
+    "page": "https://de.wikipedia.org/wiki/H%C3%BChnerei",
+    "commons": "https://commons.wikimedia.org/wiki/File:White_chicken_egg_square.jpg",
+    "license": "CC BY 2.0",
+    "author": "Ren West, square crop by uploader"
+   }
+  },
+  {
+   "id": "reis",
+   "topic": "food",
+   "art": "der",
+   "de": "Reis",
+   "plural": "-",
+   "ar": "رز",
+   "photo": {
+    "file": "Uncooked ST25 rice on bamboo surface.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Uncooked_ST25_rice_on_bamboo_surface.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Uncooked_ST25_rice_on_bamboo_surface.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "VinhNguyen.1257"
+   }
+  },
+  {
+   "id": "tomate",
+   "topic": "food",
+   "art": "die",
+   "de": "Tomate",
+   "plural": "Tomaten",
+   "ar": "طماطم",
+   "photo": {
+    "file": "Tomatoes-on-the-bush.jpg",
+    "page": "https://de.wikipedia.org/wiki/Tomate",
+    "commons": "https://commons.wikimedia.org/wiki/File:Tomatoes-on-the-bush.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": ""
+   }
+  },
+  {
+   "id": "zwiebel",
+   "topic": "food",
+   "art": "die",
+   "de": "Zwiebel",
+   "plural": "Zwiebeln",
+   "ar": "بصلة",
+   "photo": {
+    "file": "Mixed onions.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mixed_onions.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Mixed_onions.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Colin"
+   }
+  },
+  {
+   "id": "orange",
+   "topic": "food",
+   "art": "die",
+   "de": "Orange",
+   "plural": "Orangen",
+   "ar": "برتقالة",
+   "photo": {
+    "file": "Oranges - whole-halved-segment.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ivar Leidus"
+   }
+  },
+  {
+   "id": "zucker",
+   "topic": "food",
+   "art": "der",
+   "de": "Zucker",
+   "plural": "-",
+   "ar": "سكر",
+   "photo": {
+    "file": "Sucre_blanc_cassonade_complet_rapadura.jpg",
+    "page": "https://de.wikipedia.org/wiki/Zucker",
+    "commons": "https://commons.wikimedia.org/wiki/File:Sucre_blanc_cassonade_complet_rapadura.jpg",
+    "license": "Public domain",
+    "author": "Romain Behar"
+   }
+  },
+  {
+   "id": "salz",
+   "topic": "food",
+   "art": "das",
+   "de": "Salz",
+   "plural": "-",
+   "ar": "ملح",
+   "photo": {
+    "file": "Table_salt_with_salt_shaker_V1.jpg",
+    "page": "https://de.wikipedia.org/wiki/Speisesalz",
+    "commons": "https://commons.wikimedia.org/wiki/File:Table_salt_with_salt_shaker_V1.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Poyraz 72"
+   }
+  },
+  {
+   "id": "butter",
+   "topic": "food",
+   "art": "die",
+   "de": "Butter",
+   "plural": "-",
+   "ar": "زبدة",
+   "photo": {
+    "file": "NCI_butter.jpg",
+    "page": "https://de.wikipedia.org/wiki/Butter",
+    "commons": "https://commons.wikimedia.org/wiki/File:NCI_butter.jpg",
+    "license": "Public domain",
+    "author": "Renee Comet (National Cancer Institute)"
+   }
+  },
+  {
+   "id": "fleisch",
+   "topic": "food",
+   "art": "das",
+   "de": "Fleisch",
+   "plural": "-",
+   "ar": "لحمة",
+   "photo": {
+    "file": "Venison_Steaks.jpg",
+    "page": "https://de.wikipedia.org/wiki/Fleisch",
+    "commons": "https://commons.wikimedia.org/wiki/File:Venison_Steaks.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "FotoosVanRobin from Netherlands"
+   }
+  },
+  {
+   "id": "huhn",
+   "topic": "food",
+   "art": "das",
+   "de": "Huhn",
+   "plural": "Hühner",
+   "ar": "فرخة / دجاجة",
+   "photo": {
+    "file": "Braekel.jpg",
+    "page": "https://de.wikipedia.org/wiki/Haushuhn",
+    "commons": "https://commons.wikimedia.org/wiki/File:Braekel.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Photograph by en:User:Stijn Ghesquiere 2004."
+   }
+  },
+  {
+   "id": "fisch",
+   "topic": "food",
+   "art": "der",
+   "de": "Fisch",
+   "plural": "Fische",
+   "ar": "سمكة",
+   "photo": {
+    "file": "Fresh fish on ice at the wholesale market, Tsuruga, March 2015.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fresh_fish_on_ice_at_the_wholesale_market,_Tsuruga,_March_2015.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Fresh_fish_on_ice_at_the_wholesale_market,_Tsuruga,_March_2015.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "NevinThompson"
+   }
+  },
+  {
+   "id": "gurke",
+   "topic": "food",
+   "art": "die",
+   "de": "Gurke",
+   "plural": "Gurken",
+   "ar": "خيارة",
+   "photo": {
+    "file": "Fresh cucumbers in bulk.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fresh_cucumbers_in_bulk.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Fresh_cucumbers_in_bulk.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Salma kyari"
+   }
+  },
+  {
+   "id": "erdbeere",
+   "topic": "food",
+   "art": "die",
+   "de": "Erdbeere",
+   "plural": "Erdbeeren",
+   "ar": "فراولة",
+   "photo": {
+    "file": "2017-11-19_Strawberries_on_the_farm.jpg",
+    "page": "https://de.wikipedia.org/wiki/Gartenerdbeere",
+    "commons": "https://commons.wikimedia.org/wiki/File:2017-11-19_Strawberries_on_the_farm.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Maksym Kozlenko"
+   }
+  },
+  {
+   "id": "traube",
+   "topic": "food",
+   "art": "die",
+   "de": "Traube",
+   "plural": "Trauben",
+   "ar": "عنب",
+   "photo": {
+    "file": "Weintraube_01_KMJ.jpg",
+    "page": "https://de.wikipedia.org/wiki/Weintraube",
+    "commons": "https://commons.wikimedia.org/wiki/File:Weintraube_01_KMJ.jpg",
+    "license": "Public domain",
+    "author": "U.S. Department o Agriculture — Agricultural Research Service"
+   }
+  },
+  {
+   "id": "suppe",
+   "topic": "food",
+   "art": "die",
+   "de": "Suppe",
+   "plural": "Suppen",
+   "ar": "شوربة",
+   "photo": {
+    "file": "Vegetable_beef_barley_soup.jpg",
+    "page": "https://de.wikipedia.org/wiki/Suppe",
+    "commons": "https://commons.wikimedia.org/wiki/File:Vegetable_beef_barley_soup.jpg",
+    "license": "Public domain",
+    "author": "Photographer: Peggy Greb, Original uploader: Fredrik"
+   }
+  },
+  {
+   "id": "kuchen",
+   "topic": "food",
+   "art": "der",
+   "de": "Kuchen",
+   "plural": "-",
+   "ar": "كيكة",
+   "photo": {
+    "file": "Streuselkuchen7.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kuchen",
+    "commons": "https://commons.wikimedia.org/wiki/File:Streuselkuchen7.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Oliver s."
+   }
+  },
+  {
+   "id": "nudel",
+   "topic": "food",
+   "art": "die",
+   "de": "Nudel",
+   "plural": "Nudeln",
+   "ar": "مكرونة",
+   "photo": {
+    "file": "Tomato pasta noodles.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tomato_pasta_noodles.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Tomato_pasta_noodles.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Mallikarjunasj"
+   }
+  },
+  {
+   "id": "karotte",
+   "topic": "food",
+   "art": "die",
+   "de": "Karotte",
+   "plural": "Karotten",
+   "ar": "جزرة",
+   "photo": {
+    "file": "Carrots.JPG",
+    "page": "https://de.wikipedia.org/wiki/Karotte",
+    "commons": "https://commons.wikimedia.org/wiki/File:Carrots.JPG",
+    "license": "Public domain",
+    "author": "Kander"
+   }
+  },
+  {
+   "id": "zitrone",
+   "topic": "food",
+   "art": "die",
+   "de": "Zitrone",
+   "plural": "Zitronen",
+   "ar": "ليمونة",
+   "photo": {
+    "file": "Lemon.jpg",
+    "page": "https://de.wikipedia.org/wiki/Zitrone",
+    "commons": "https://commons.wikimedia.org/wiki/File:Lemon.jpg",
+    "license": "CC BY-SA 2.5",
+    "author": "André Karwath aka Aka"
+   }
+  },
+  {
+   "id": "wasser",
+   "topic": "drinks",
+   "art": "das",
+   "de": "Wasser",
+   "plural": "-",
+   "ar": "مياه",
+   "photo": {
+    "file": "Stilles_Mineralwasser.jpg",
+    "page": "https://de.wikipedia.org/wiki/Trinkwasser",
+    "commons": "https://commons.wikimedia.org/wiki/File:Stilles_Mineralwasser.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Walter J. Pilsak, Waldsassen, Germany"
+   }
+  },
+  {
+   "id": "milch",
+   "topic": "drinks",
+   "art": "die",
+   "de": "Milch",
+   "plural": "-",
+   "ar": "لبن",
+   "photo": {
+    "file": "Milk_glass.jpg",
+    "page": "https://de.wikipedia.org/wiki/Milch",
+    "commons": "https://commons.wikimedia.org/wiki/File:Milk_glass.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Stefan Kühn"
+   }
+  },
+  {
+   "id": "kaffee",
+   "topic": "drinks",
+   "art": "der",
+   "de": "Kaffee",
+   "plural": "-",
+   "ar": "قهوة",
+   "photo": {
+    "file": "Coffee_cup_surrounded_by_coffee_beans.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kaffee",
+    "commons": "https://commons.wikimedia.org/wiki/File:Coffee_cup_surrounded_by_coffee_beans.jpg",
+    "license": "CC0",
+    "author": "Petr Kratochvil"
+   }
+  },
+  {
+   "id": "tee",
+   "topic": "drinks",
+   "art": "der",
+   "de": "Tee",
+   "plural": "Tees",
+   "ar": "شاي",
+   "photo": {
+    "file": "Chinese_tea,_gancha.jpg",
+    "page": "https://de.wikipedia.org/wiki/Tee",
+    "commons": "https://commons.wikimedia.org/wiki/File:Chinese_tea,_gancha.jpg",
+    "license": "CC BY 2.0",
+    "author": "yomi yomi from kyoto, japan"
+   }
+  },
+  {
+   "id": "saft",
+   "topic": "drinks",
+   "art": "der",
+   "de": "Saft",
+   "plural": "Säfte",
+   "ar": "عصير",
+   "photo": {
+    "file": "Grapefruit_and_Orange_Juice_Mimosas.jpg",
+    "page": "https://de.wikipedia.org/wiki/Fruchtsaft",
+    "commons": "https://commons.wikimedia.org/wiki/File:Grapefruit_and_Orange_Juice_Mimosas.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "John Knox"
+   }
+  },
+  {
+   "id": "haus",
+   "topic": "house",
+   "art": "das",
+   "de": "Haus",
+   "plural": "Häuser",
+   "ar": "بيت",
+   "photo": {
+    "file": "Odenthal_Ortszentrum_Pfarrhaus.jpg",
+    "page": "https://de.wikipedia.org/wiki/Haus",
+    "commons": "https://commons.wikimedia.org/wiki/File:Odenthal_Ortszentrum_Pfarrhaus.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "A.Savin"
+   }
+  },
+  {
+   "id": "tisch",
+   "topic": "house",
+   "art": "der",
+   "de": "Tisch",
+   "plural": "Tische",
+   "ar": "ترابيزة",
+   "photo": {
+    "file": "Wright dining table - HNT.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wright_dining_table_-_HNT.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Wright_dining_table_-_HNT.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Eric Polk"
+   }
+  },
+  {
+   "id": "stuhl",
+   "topic": "house",
+   "art": "der",
+   "de": "Stuhl",
+   "plural": "Stühle",
+   "ar": "كرسي",
+   "photo": {
+    "file": "Santorin (GR), Fira -- 2017 -- 2598.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Santorin_(GR),_Fira_--_2017_--_2598.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Santorin_(GR),_Fira_--_2017_--_2598.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Dietmar Rabich"
+   }
+  },
+  {
+   "id": "bett",
+   "topic": "house",
+   "art": "das",
+   "de": "Bett",
+   "plural": "Betten",
+   "ar": "سرير",
+   "photo": {
+    "file": "Cama_de_madeira.jpg",
+    "page": "https://de.wikipedia.org/wiki/Bett",
+    "commons": "https://commons.wikimedia.org/wiki/File:Cama_de_madeira.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Homer Simpson - D'oh"
+   }
+  },
+  {
+   "id": "fenster",
+   "topic": "house",
+   "art": "das",
+   "de": "Fenster",
+   "plural": "-",
+   "ar": "شباك",
+   "photo": {
+    "file": "Wooden house (window shutters), Riga.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wooden_house_(window_shutters),_Riga.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Wooden_house_(window_shutters),_Riga.jpg",
+    "license": "Public domain",
+    "author": "Photograph:  Radomianin"
+   }
+  },
+  {
+   "id": "tuer",
+   "topic": "house",
+   "art": "die",
+   "de": "Tür",
+   "plural": "Türen",
+   "ar": "باب",
+   "photo": {
+    "file": "Fischerkirche (main door), Born a. Darß.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fischerkirche_(main_door),_Born_a._Dar%C3%9F.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Fischerkirche_(main_door),_Born_a._Dar%C3%9F.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Radomianin"
+   }
+  },
+  {
+   "id": "lampe",
+   "topic": "house",
+   "art": "die",
+   "de": "Lampe",
+   "plural": "Lampen",
+   "ar": "لمبة / أباجورة",
+   "photo": {
+    "file": "BrassOliveOilLamp2.jpg",
+    "page": "https://de.wikipedia.org/wiki/Lampe",
+    "commons": "https://commons.wikimedia.org/wiki/File:BrassOliveOilLamp2.jpg",
+    "license": "CC BY 2.5",
+    "author": "Infrogmation"
+   }
+  },
+  {
+   "id": "sofa",
+   "topic": "house",
+   "art": "das",
+   "de": "Sofa",
+   "plural": "Sofas",
+   "ar": "كنبة",
+   "photo": {
+    "file": "19CentSofaMusDF.JPG",
+    "page": "https://de.wikipedia.org/wiki/Sofa",
+    "commons": "https://commons.wikimedia.org/wiki/File:19CentSofaMusDF.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "AlejandroLinaresGarcia"
+   }
+  },
+  {
+   "id": "kueche",
+   "topic": "house",
+   "art": "die",
+   "de": "Küche",
+   "plural": "Küchen",
+   "ar": "مطبخ",
+   "photo": {
+    "file": "Modern luxury living room with kitchen interior.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Modern_luxury_living_room_with_kitchen_interior.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Modern_luxury_living_room_with_kitchen_interior.jpg",
+    "license": "CC BY 2.0",
+    "author": "Shixart1985"
+   }
+  },
+  {
+   "id": "schluessel",
+   "topic": "house",
+   "art": "der",
+   "de": "Schlüssel",
+   "plural": "-",
+   "ar": "مفتاح",
+   "photo": {
+    "file": "Solex 99 30 padlock with keys (DSCF2659).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Solex_99_30_padlock_with_keys_(DSCF2659).jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Solex_99_30_padlock_with_keys_(DSCF2659).jpg",
+    "license": "CC BY 4.0",
+    "author": "Trougnouf"
+   }
+  },
+  {
+   "id": "uhr",
+   "topic": "house",
+   "art": "die",
+   "de": "Uhr",
+   "plural": "Uhren",
+   "ar": "ساعة",
+   "photo": {
+    "file": "Clock_~22torxni.jpg",
+    "page": "https://de.wikipedia.org/wiki/Uhr",
+    "commons": "https://commons.wikimedia.org/wiki/File:Clock_~22torxni.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Grzegorz W. Tężycki"
+   }
+  },
+  {
+   "id": "treppe",
+   "topic": "house",
+   "art": "die",
+   "de": "Treppe",
+   "plural": "Treppen",
+   "ar": "سلم",
+   "photo": {
+    "file": "Kasyno_Szlacheckie_we_Lwowie_(1).jpg",
+    "page": "https://de.wikipedia.org/wiki/Treppe",
+    "commons": "https://commons.wikimedia.org/wiki/File:Kasyno_Szlacheckie_we_Lwowie_(1).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Pudelek"
+   }
+  },
+  {
+   "id": "teppich",
+   "topic": "house",
+   "art": "der",
+   "de": "Teppich",
+   "plural": "Teppiche",
+   "ar": "سجادة",
+   "photo": {
+    "file": "EB1911 Carpet - Fig. 4.—Persian rug using tapestry weave.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:EB1911_Carpet_-_Fig._4.%E2%80%94Persian_rug_using_tapestry_weave.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:EB1911_Carpet_-_Fig._4.%E2%80%94Persian_rug_using_tapestry_weave.jpg",
+    "license": "Public domain",
+    "author": "AnonymousUnknown author"
+   }
+  },
+  {
+   "id": "bahnhof",
+   "topic": "places",
+   "art": "der",
+   "de": "Bahnhof",
+   "plural": "Bahnhöfe",
+   "ar": "محطة قطر",
+   "photo": {
+    "file": "Thusis_Bahnhof.jpg",
+    "page": "https://de.wikipedia.org/wiki/Bahnhof",
+    "commons": "https://commons.wikimedia.org/wiki/File:Thusis_Bahnhof.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "upload by Adrian Michael"
+   }
+  },
+  {
+   "id": "flughafen",
+   "topic": "places",
+   "art": "der",
+   "de": "Flughafen",
+   "plural": "Flughäfen",
+   "ar": "مطار",
+   "photo": {
+    "file": "LSZH_001.jpg",
+    "page": "https://de.wikipedia.org/wiki/Flughafen",
+    "commons": "https://commons.wikimedia.org/wiki/File:LSZH_001.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Marc Michel"
+   }
+  },
+  {
+   "id": "krankenhaus",
+   "topic": "places",
+   "art": "das",
+   "de": "Krankenhaus",
+   "plural": "Krankenhäuser",
+   "ar": "مستشفى",
+   "photo": {
+    "file": "KlinikumAachen.jpg",
+    "page": "https://de.wikipedia.org/wiki/Krankenhaus",
+    "commons": "https://commons.wikimedia.org/wiki/File:KlinikumAachen.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Mali"
+   }
+  },
+  {
+   "id": "supermarkt",
+   "topic": "places",
+   "art": "der",
+   "de": "Supermarkt",
+   "plural": "Supermärkte",
+   "ar": "سوبر ماركت",
+   "photo": {
+    "file": "Peter_Stehlik_2012.01.11_004a.jpg",
+    "page": "https://de.wikipedia.org/wiki/Supermarkt",
+    "commons": "https://commons.wikimedia.org/wiki/File:Peter_Stehlik_2012.01.11_004a.jpg",
+    "license": "CC BY 3.0",
+    "author": "Peter Stehlik PS-2507"
+   }
+  },
+  {
+   "id": "park",
+   "topic": "places",
+   "art": "der",
+   "de": "Park",
+   "plural": "Parks",
+   "ar": "حديقة",
+   "photo": {
+    "file": "Regent's_Park_bandstand.jpg",
+    "page": "https://de.wikipedia.org/wiki/Park",
+    "commons": "https://commons.wikimedia.org/wiki/File:Regent%27s_Park_bandstand.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "ed g2s • talk"
+   }
+  },
+  {
+   "id": "bruecke",
+   "topic": "places",
+   "art": "die",
+   "de": "Brücke",
+   "plural": "Brücken",
+   "ar": "كوبري",
+   "photo": {
+    "file": "Pont sur l'Orb, Roquebrun 02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pont_sur_l%27Orb,_Roquebrun_02.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Pont_sur_l%27Orb,_Roquebrun_02.jpg",
+    "license": "CC BY 4.0",
+    "author": "Christian Ferrer"
+   }
+  },
+  {
+   "id": "restaurant",
+   "topic": "places",
+   "art": "das",
+   "de": "Restaurant",
+   "plural": "Restaurants",
+   "ar": "مطعم",
+   "photo": {
+    "file": "Inside_Le_Procope.jpg",
+    "page": "https://de.wikipedia.org/wiki/Restaurant",
+    "commons": "https://commons.wikimedia.org/wiki/File:Inside_Le_Procope.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Michael Rys"
+   }
+  },
+  {
+   "id": "kirche",
+   "topic": "places",
+   "art": "die",
+   "de": "Kirche",
+   "plural": "Kirchen",
+   "ar": "كنيسة",
+   "photo": {
+    "file": "Speyer_Dom_pano.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kirche_(Bauwerk)",
+    "commons": "https://commons.wikimedia.org/wiki/File:Speyer_Dom_pano.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Lokilech"
+   }
+  },
+  {
+   "id": "moschee",
+   "topic": "places",
+   "art": "die",
+   "de": "Moschee",
+   "plural": "Moscheen",
+   "ar": "جامع",
+   "photo": {
+    "file": "Kazan_Kremlin_Qolsharif_Mosque_08-2016_img2.jpg",
+    "page": "https://de.wikipedia.org/wiki/Moschee",
+    "commons": "https://commons.wikimedia.org/wiki/File:Kazan_Kremlin_Qolsharif_Mosque_08-2016_img2.jpg",
+    "license": "FAL",
+    "author": "A.Savin"
+   }
+  },
+  {
+   "id": "markt",
+   "topic": "places",
+   "art": "der",
+   "de": "Markt",
+   "plural": "Märkte",
+   "ar": "سوق",
+   "photo": {
+    "file": "Jedburgh Easter Market 2022 sweet stall and stallholder with Oisin behind.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jedburgh_Easter_Market_2022_sweet_stall_and_stallholder_with_Oisin_behind.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Jedburgh_Easter_Market_2022_sweet_stall_and_stallholder_with_Oisin_behind.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Victuallers"
+   }
+  },
+  {
+   "id": "bibliothek",
+   "topic": "places",
+   "art": "die",
+   "de": "Bibliothek",
+   "plural": "Bibliotheken",
+   "ar": "مكتبة",
+   "photo": {
+    "file": "Real_Gabinete_Português_de_Leitura_10.jpg",
+    "page": "https://de.wikipedia.org/wiki/Bibliothek",
+    "commons": "https://commons.wikimedia.org/wiki/File:Real_Gabinete_Portugu%C3%AAs_de_Leitura_10.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Donatas Dabravolskas"
+   }
+  },
+  {
+   "id": "apotheke",
+   "topic": "places",
+   "art": "die",
+   "de": "Apotheke",
+   "plural": "Apotheken",
+   "ar": "صيدلية",
+   "photo": {
+    "file": "Pharmacy_sign.JPG",
+    "page": "https://de.wikipedia.org/wiki/Apotheke",
+    "commons": "https://commons.wikimedia.org/wiki/File:Pharmacy_sign.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "User:Concord"
+   }
+  },
+  {
+   "id": "hotel",
+   "topic": "places",
+   "art": "das",
+   "de": "Hotel",
+   "plural": "Hotels",
+   "ar": "فندق",
+   "photo": {
+    "file": "Hotel_Ritz_Paris.jpg",
+    "page": "https://de.wikipedia.org/wiki/Hotel",
+    "commons": "https://commons.wikimedia.org/wiki/File:Hotel_Ritz_Paris.jpg",
+    "license": "Public domain",
+    "author": "User Vlastula on en.wikipedia"
+   }
+  },
+  {
+   "id": "kino",
+   "topic": "places",
+   "art": "das",
+   "de": "Kino",
+   "plural": "Kinos",
+   "ar": "سينما",
+   "photo": {
+    "file": "Ptuj,_city_cinema.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kino",
+    "commons": "https://commons.wikimedia.org/wiki/File:Ptuj,_city_cinema.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Ajznponar"
+   }
+  },
+  {
+   "id": "museum",
+   "topic": "places",
+   "art": "das",
+   "de": "Museum",
+   "plural": "Museen",
+   "ar": "متحف",
+   "photo": {
+    "file": "Cour_Napoléon_at_night_-_Louvre.jpg",
+    "page": "https://de.wikipedia.org/wiki/Museum",
+    "commons": "https://commons.wikimedia.org/wiki/File:Cour_Napol%C3%A9on_at_night_-_Louvre.jpg",
+    "license": "CC BY 2.5",
+    "author": "Benh LIEU SONG"
+   }
+  },
+  {
+   "id": "auto",
+   "topic": "transport",
+   "art": "das",
+   "de": "Auto",
+   "plural": "Autos",
+   "ar": "عربية",
+   "photo": {
+    "file": "Benz_Patent-Motorwagen_Nr_2.jpg",
+    "page": "https://de.wikipedia.org/wiki/Automobil",
+    "commons": "https://commons.wikimedia.org/wiki/File:Benz_Patent-Motorwagen_Nr_2.jpg",
+    "license": "Public domain",
+    "author": "supplied by Carl Benz to William Worby Beaumont"
+   }
+  },
+  {
+   "id": "bus",
+   "topic": "transport",
+   "art": "der",
+   "de": "Bus",
+   "plural": "Busse",
+   "ar": "أتوبيس",
+   "photo": {
+    "file": "Graz_Linien_Wagen_114_beim_Murpark.jpg",
+    "page": "https://de.wikipedia.org/wiki/Omnibus",
+    "commons": "https://commons.wikimedia.org/wiki/File:Graz_Linien_Wagen_114_beim_Murpark.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Armin Ademovic"
+   }
+  },
+  {
+   "id": "zug",
+   "topic": "transport",
+   "art": "der",
+   "de": "Zug",
+   "plural": "Züge",
+   "ar": "قطر",
+   "photo": {
+    "file": "Tren_a_las_nubes_cruzando_Viaducto_la_Polvorilla.jpg",
+    "page": "https://de.wikipedia.org/wiki/Eisenbahn",
+    "commons": "https://commons.wikimedia.org/wiki/File:Tren_a_las_nubes_cruzando_Viaducto_la_Polvorilla.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Gavieiro Juan M"
+   }
+  },
+  {
+   "id": "fahrrad",
+   "topic": "transport",
+   "art": "das",
+   "de": "Fahrrad",
+   "plural": "Fahrräder",
+   "ar": "عجلة",
+   "photo": {
+    "file": "15-07-12-Ciclistas-en-Mexico-RalfR-N3S_8973.jpg",
+    "page": "https://de.wikipedia.org/wiki/Fahrrad",
+    "commons": "https://commons.wikimedia.org/wiki/File:15-07-12-Ciclistas-en-Mexico-RalfR-N3S_8973.jpg",
+    "license": "GFDL 1.2",
+    "author": "Ralf Roletschek"
+   }
+  },
+  {
+   "id": "flugzeug",
+   "topic": "transport",
+   "art": "das",
+   "de": "Flugzeug",
+   "plural": "Flugzeuge",
+   "ar": "طيارة",
+   "photo": {
+    "file": "G-BGMP_Reims_F172_@Cotswold_Airport,_July_2005.jpg",
+    "page": "https://de.wikipedia.org/wiki/Flugzeug",
+    "commons": "https://commons.wikimedia.org/wiki/File:G-BGMP_Reims_F172_@Cotswold_Airport,_July_2005.jpg",
+    "license": "Public domain",
+    "author": "Adrian Pingstone"
+   }
+  },
+  {
+   "id": "taxi",
+   "topic": "transport",
+   "art": "das",
+   "de": "Taxi",
+   "plural": "Taxis",
+   "ar": "تاكسي",
+   "photo": {
+    "file": "Taxis_at_EDDT-(jha).jpg",
+    "page": "https://de.wikipedia.org/wiki/Taxi",
+    "commons": "https://commons.wikimedia.org/wiki/File:Taxis_at_EDDT-(jha).jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Matti Blume, MB-one"
+   }
+  },
+  {
+   "id": "u-bahn",
+   "topic": "transport",
+   "art": "die",
+   "de": "U-Bahn",
+   "plural": "U-Bahnen",
+   "ar": "مترو",
+   "photo": {
+    "file": "London_Underground_S7_Stock_21329_on_District_Line,_Earl's_Court_(18280510331).jpg",
+    "page": "https://de.wikipedia.org/wiki/U-Bahn",
+    "commons": "https://commons.wikimedia.org/wiki/File:London_Underground_S7_Stock_21329_on_District_Line,_Earl%27s_Court_(18280510331).jpg",
+    "license": "CC BY 2.0",
+    "author": "Aubrey Morandarte from Guildford or Coventry, England"
+   }
+  },
+  {
+   "id": "schiff",
+   "topic": "transport",
+   "art": "das",
+   "de": "Schiff",
+   "plural": "Schiffe",
+   "ar": "مركب / سفينة",
+   "photo": {
+    "file": "Baltic_(Ship)_2010-by-RaBoe-04.jpg",
+    "page": "https://de.wikipedia.org/wiki/Schiff",
+    "commons": "https://commons.wikimedia.org/wiki/File:Baltic_(Ship)_2010-by-RaBoe-04.jpg",
+    "license": "CC BY-SA 3.0 de",
+    "author": "© Ra Boe / Wikipedia  \n\nCreate the proper attribution for your usage by clicking on this button!\n\n This file is licensed"
+   }
+  },
+  {
+   "id": "motorrad",
+   "topic": "transport",
+   "art": "das",
+   "de": "Motorrad",
+   "plural": "Motorräder",
+   "ar": "موتوسيكل",
+   "photo": {
+    "file": "1200gsfr.jpg",
+    "page": "https://de.wikipedia.org/wiki/Motorrad",
+    "commons": "https://commons.wikimedia.org/wiki/File:1200gsfr.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Romain9247"
+   }
+  },
+  {
+   "id": "hemd",
+   "topic": "clothes",
+   "art": "das",
+   "de": "Hemd",
+   "plural": "Hemden",
+   "ar": "قميص",
+   "photo": {
+    "file": "Blue_Business_Shirt.jpg",
+    "page": "https://de.wikipedia.org/wiki/Hemd",
+    "commons": "https://commons.wikimedia.org/wiki/File:Blue_Business_Shirt.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": ""
+   }
+  },
+  {
+   "id": "jacke",
+   "topic": "clothes",
+   "art": "die",
+   "de": "Jacke",
+   "plural": "Jacken",
+   "ar": "جاكيت",
+   "photo": {
+    "file": "Jack_Wolfskin,_OutDoor_2018,_Friedrichshafen_(1X7A0404).jpg",
+    "page": "https://de.wikipedia.org/wiki/Jacke",
+    "commons": "https://commons.wikimedia.org/wiki/File:Jack_Wolfskin,_OutDoor_2018,_Friedrichshafen_(1X7A0404).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Matti Blume"
+   }
+  },
+  {
+   "id": "schuh",
+   "topic": "clothes",
+   "art": "der",
+   "de": "Schuh",
+   "plural": "Schuhe",
+   "ar": "جزمة",
+   "photo": {
+    "file": "Sapatos_de_couro_marrom.JPG",
+    "page": "https://de.wikipedia.org/wiki/Schuh",
+    "commons": "https://commons.wikimedia.org/wiki/File:Sapatos_de_couro_marrom.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "Isabela Maia"
+   }
+  },
+  {
+   "id": "muetze",
+   "topic": "clothes",
+   "art": "die",
+   "de": "Mütze",
+   "plural": "Mützen",
+   "ar": "طاقية",
+   "photo": {
+    "file": "Mützenstand.JPG",
+    "page": "https://de.wikipedia.org/wiki/M%C3%BCtze",
+    "commons": "https://commons.wikimedia.org/wiki/File:M%C3%BCtzenstand.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "Mehlauge"
+   }
+  },
+  {
+   "id": "kleid",
+   "topic": "clothes",
+   "art": "das",
+   "de": "Kleid",
+   "plural": "Kleider",
+   "ar": "فستان",
+   "photo": {
+    "file": "Dress with circle skirt in the wind - pose 2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dress_with_circle_skirt_in_the_wind_-_pose_2.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Dress_with_circle_skirt_in_the_wind_-_pose_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Tobias ToMar Maier"
+   }
+  },
+  {
+   "id": "socke",
+   "topic": "clothes",
+   "art": "die",
+   "de": "Socke",
+   "plural": "Socken",
+   "ar": "شراب",
+   "photo": {
+    "file": "Socken_farbig.jpeg",
+    "page": "https://de.wikipedia.org/wiki/Strumpf",
+    "commons": "https://commons.wikimedia.org/wiki/File:Socken_farbig.jpeg",
+    "license": "Public domain",
+    "author": "Scott Bauer"
+   }
+  },
+  {
+   "id": "brille",
+   "topic": "clothes",
+   "art": "die",
+   "de": "Brille",
+   "plural": "Brillen",
+   "ar": "نظارة",
+   "photo": {
+    "file": "Half_rim_glasses.JPG",
+    "page": "https://de.wikipedia.org/wiki/Brille",
+    "commons": "https://commons.wikimedia.org/wiki/File:Half_rim_glasses.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Victorrocha"
+   }
+  },
+  {
+   "id": "t-shirt",
+   "topic": "clothes",
+   "art": "das",
+   "de": "T-Shirt",
+   "plural": "T-Shirts",
+   "ar": "تيشيرت",
+   "photo": {
+    "file": "Camiseta-negra.jpg",
+    "page": "https://de.wikipedia.org/wiki/T-Shirt",
+    "commons": "https://commons.wikimedia.org/wiki/File:Camiseta-negra.jpg",
+    "license": "CC BY 3.0",
+    "author": "Camisetas"
+   }
+  },
+  {
+   "id": "mantel",
+   "topic": "clothes",
+   "art": "der",
+   "de": "Mantel",
+   "plural": "Mäntel",
+   "ar": "معطف",
+   "photo": {
+    "file": "Norma Kamali \"Sleeping Bag\" coat, 1980-1985.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Norma_Kamali_%22Sleeping_Bag%22_coat,_1980-1985.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Norma_Kamali_%22Sleeping_Bag%22_coat,_1980-1985.jpg",
+    "license": "CC0",
+    "author": "Funknendai"
+   }
+  },
+  {
+   "id": "hut",
+   "topic": "clothes",
+   "art": "der",
+   "de": "Hut",
+   "plural": "Hüte",
+   "ar": "برنيطة",
+   "photo": {
+    "file": "Ronald Reagan with cowboy hat 12-0071M edit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_with_cowboy_hat_12-0071M_edit.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_with_cowboy_hat_12-0071M_edit.jpg",
+    "license": "Public domain",
+    "author": "Michael Evans"
+   }
+  },
+  {
+   "id": "tasche",
+   "topic": "clothes",
+   "art": "die",
+   "de": "Tasche",
+   "plural": "Taschen",
+   "ar": "شنطة",
+   "photo": {
+    "file": "Timbuk2_custom-made_messenger_bag_„DeeDog“.JPG",
+    "page": "https://de.wikipedia.org/wiki/Tasche",
+    "commons": "https://commons.wikimedia.org/wiki/File:Timbuk2_custom-made_messenger_bag_%E2%80%9EDeeDog%E2%80%9C.JPG",
+    "license": "CC BY-SA 2.0 de",
+    "author": "Christoph Hoffmann"
+   }
+  },
+  {
+   "id": "guertel",
+   "topic": "clothes",
+   "art": "der",
+   "de": "Gürtel",
+   "plural": "-",
+   "ar": "حزام",
+   "photo": {
+    "file": "Germany Belt-and-Buckle-02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Germany_Belt-and-Buckle-02.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Germany_Belt-and-Buckle-02.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "CEphoto, Uwe Aranas"
+   }
+  },
+  {
+   "id": "hund",
+   "topic": "animals",
+   "art": "der",
+   "de": "Hund",
+   "plural": "Hunde",
+   "ar": "كلب",
+   "photo": {
+    "file": "Harzer_Fuchs_Hündin_2.jpg",
+    "page": "https://de.wikipedia.org/wiki/Haushund",
+    "commons": "https://commons.wikimedia.org/wiki/File:Harzer_Fuchs_H%C3%BCndin_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "C voehr"
+   }
+  },
+  {
+   "id": "katze",
+   "topic": "animals",
+   "art": "die",
+   "de": "Katze",
+   "plural": "Katzen",
+   "ar": "قطة",
+   "photo": {
+    "file": "Collage_of_Six_Cats-02.jpg",
+    "page": "https://de.wikipedia.org/wiki/Hauskatze",
+    "commons": "https://commons.wikimedia.org/wiki/File:Collage_of_Six_Cats-02.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Derivative work: howcheng  {chat}"
+   }
+  },
+  {
+   "id": "pferd",
+   "topic": "animals",
+   "art": "das",
+   "de": "Pferd",
+   "plural": "Pferde",
+   "ar": "حصان",
+   "photo": {
+    "file": "Horse_December_2014-1.jpg",
+    "page": "https://de.wikipedia.org/wiki/Hauspferd",
+    "commons": "https://commons.wikimedia.org/wiki/File:Horse_December_2014-1.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Alvesgaspar"
+   }
+  },
+  {
+   "id": "kuh",
+   "topic": "animals",
+   "art": "die",
+   "de": "Kuh",
+   "plural": "Kühe",
+   "ar": "بقرة",
+   "photo": {
+    "file": "Melchsee-Frutt_Kuh.jpg",
+    "page": "https://de.wikipedia.org/wiki/Hausrind",
+    "commons": "https://commons.wikimedia.org/wiki/File:Melchsee-Frutt_Kuh.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Ikiwaner"
+   }
+  },
+  {
+   "id": "vogel",
+   "topic": "animals",
+   "art": "der",
+   "de": "Vogel",
+   "plural": "Vögel",
+   "ar": "عصفور / طائر",
+   "photo": {
+    "file": "Crested_Tern_Tasmania_(edit).jpg",
+    "page": "https://de.wikipedia.org/wiki/V%C3%B6gel",
+    "commons": "https://commons.wikimedia.org/wiki/File:Crested_Tern_Tasmania_(edit).jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "JJ Harrison (https://www.jjharrison.com.au/)"
+   }
+  },
+  {
+   "id": "schaf",
+   "topic": "animals",
+   "art": "das",
+   "de": "Schaf",
+   "plural": "Schafe",
+   "ar": "خروف",
+   "photo": {
+    "file": "Schafe_Bergweide.jpg",
+    "page": "https://de.wikipedia.org/wiki/Hausschaf",
+    "commons": "https://commons.wikimedia.org/wiki/File:Schafe_Bergweide.jpg",
+    "license": "CC BY-SA 2.5",
+    "author": "Georg Mittenecker"
+   }
+  },
+  {
+   "id": "kamel",
+   "topic": "animals",
+   "art": "das",
+   "de": "Kamel",
+   "plural": "Kamele",
+   "ar": "جمل",
+   "photo": {
+    "file": "Desert_(6).jpg",
+    "page": "https://de.wikipedia.org/wiki/Kamele",
+    "commons": "https://commons.wikimedia.org/wiki/File:Desert_(6).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Mostafameraji"
+   }
+  },
+  {
+   "id": "loewe",
+   "topic": "animals",
+   "art": "der",
+   "de": "Löwe",
+   "plural": "Löwen",
+   "ar": "أسد",
+   "photo": {
+    "file": "011_The_lion_king_Tryggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "page": "https://de.wikipedia.org/wiki/L%C3%B6we",
+    "commons": "https://commons.wikimedia.org/wiki/File:011_The_lion_king_Tryggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Giles Laurent"
+   }
+  },
+  {
+   "id": "elefant",
+   "topic": "animals",
+   "art": "der",
+   "de": "Elefant",
+   "plural": "Elefanten",
+   "ar": "فيل",
+   "photo": {
+    "file": "Serengeti_Elefantenherde1.jpg",
+    "page": "https://de.wikipedia.org/wiki/Elefanten",
+    "commons": "https://commons.wikimedia.org/wiki/File:Serengeti_Elefantenherde1.jpg",
+    "license": "GFDL 1.2",
+    "author": "Ikiwaner"
+   }
+  },
+  {
+   "id": "esel",
+   "topic": "animals",
+   "art": "der",
+   "de": "Esel",
+   "plural": "-",
+   "ar": "حمار",
+   "photo": {
+    "file": "Donkey_in_Clovelly,_North_Devon,_England.jpg",
+    "page": "https://de.wikipedia.org/wiki/Hausesel",
+    "commons": "https://commons.wikimedia.org/wiki/File:Donkey_in_Clovelly,_North_Devon,_England.jpg",
+    "license": "Public domain",
+    "author": "Adrian Pingstone"
+   }
+  },
+  {
+   "id": "ziege",
+   "topic": "animals",
+   "art": "die",
+   "de": "Ziege",
+   "plural": "Ziegen",
+   "ar": "ماعز",
+   "photo": {
+    "file": "Hausziege_04.jpg",
+    "page": "https://de.wikipedia.org/wiki/Hausziege",
+    "commons": "https://commons.wikimedia.org/wiki/File:Hausziege_04.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Kuebi = Armin Kübelbeck"
+   }
+  },
+  {
+   "id": "affe",
+   "topic": "animals",
+   "art": "der",
+   "de": "Affe",
+   "plural": "Affen",
+   "ar": "قرد",
+   "photo": {
+    "file": "Abuko_monkey.jpg",
+    "page": "https://de.wikipedia.org/wiki/Affen",
+    "commons": "https://commons.wikimedia.org/wiki/File:Abuko_monkey.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Ikiwaner"
+   }
+  },
+  {
+   "id": "ente",
+   "topic": "animals",
+   "art": "die",
+   "de": "Ente",
+   "plural": "Enten",
+   "ar": "بطة",
+   "photo": {
+    "file": "Ducks_in_plymouth,_massachusetts.jpg",
+    "page": "https://de.wikipedia.org/wiki/Anatinae",
+    "commons": "https://commons.wikimedia.org/wiki/File:Ducks_in_plymouth,_massachusetts.jpg",
+    "license": "CC BY 2.5",
+    "author": "Diliff"
+   }
+  },
+  {
+   "id": "kaninchen",
+   "topic": "animals",
+   "art": "das",
+   "de": "Kaninchen",
+   "plural": "-",
+   "ar": "أرنب",
+   "photo": {
+    "file": "Oryctolagus_cuniculus.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kaninchen",
+    "commons": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Thermos"
+   }
+  },
+  {
+   "id": "hand",
+   "topic": "body",
+   "art": "die",
+   "de": "Hand",
+   "plural": "Hände",
+   "ar": "إيد",
+   "photo": {
+    "file": "Hand_female_3.jpg",
+    "page": "https://de.wikipedia.org/wiki/Hand",
+    "commons": "https://commons.wikimedia.org/wiki/File:Hand_female_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Sciencia58"
+   }
+  },
+  {
+   "id": "auge",
+   "topic": "body",
+   "art": "das",
+   "de": "Auge",
+   "plural": "Augen",
+   "ar": "عين",
+   "photo": {
+    "file": "Human_eye,_anterior_view.jpg",
+    "page": "https://de.wikipedia.org/wiki/Auge",
+    "commons": "https://commons.wikimedia.org/wiki/File:Human_eye,_anterior_view.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Rapidreflex"
+   }
+  },
+  {
+   "id": "ohr",
+   "topic": "body",
+   "art": "das",
+   "de": "Ohr",
+   "plural": "Ohren",
+   "ar": "ودن",
+   "photo": {
+    "file": "Menschliche_Ohrmuschel.jpg",
+    "page": "https://de.wikipedia.org/wiki/Ohr",
+    "commons": "https://commons.wikimedia.org/wiki/File:Menschliche_Ohrmuschel.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Peter Niemayer"
+   }
+  },
+  {
+   "id": "nase",
+   "topic": "body",
+   "art": "die",
+   "de": "Nase",
+   "plural": "Nasen",
+   "ar": "مناخير / أنف",
+   "photo": {
+    "file": "Neus1.jpg",
+    "page": "https://de.wikipedia.org/wiki/Nase",
+    "commons": "https://commons.wikimedia.org/wiki/File:Neus1.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "LHOON"
+   }
+  },
+  {
+   "id": "mund",
+   "topic": "body",
+   "art": "der",
+   "de": "Mund",
+   "plural": "Münder",
+   "ar": "بق / فم",
+   "photo": {
+    "file": "Adult human mouth (modified).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Adult_human_mouth_(modified).jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Adult_human_mouth_(modified).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Original: Genusfotografen (Tomas Gunnarsson) \n\nModified: Own work"
+   }
+  },
+  {
+   "id": "fuss",
+   "topic": "body",
+   "art": "der",
+   "de": "Fuß",
+   "plural": "Füße",
+   "ar": "قدم",
+   "photo": {
+    "file": "Sole of foot of an infant held between the middle finger and the ring finger of an adult hand for size comparison.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sole_of_foot_of_an_infant_held_between_the_middle_finger_and_the_ring_finger_of_an_adult_hand_for_size_comparison.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Sole_of_foot_of_an_infant_held_between_the_middle_finger_and_the_ring_finger_of_an_adult_hand_for_size_comparison.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Basile Morin"
+   }
+  },
+  {
+   "id": "haar",
+   "topic": "body",
+   "art": "das",
+   "de": "Haar",
+   "plural": "Haare",
+   "ar": "شعر",
+   "photo": {
+    "file": "Blond hair going gray 01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Blond_hair_going_gray_01.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Blond_hair_going_gray_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Kritzolina"
+   }
+  },
+  {
+   "id": "zahn",
+   "topic": "body",
+   "art": "der",
+   "de": "Zahn",
+   "plural": "Zähne",
+   "ar": "سنة",
+   "photo": {
+    "file": "06-10-06centralincisors.jpg",
+    "page": "https://de.wikipedia.org/wiki/Zahn",
+    "commons": "https://commons.wikimedia.org/wiki/File:06-10-06centralincisors.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "dozenist"
+   }
+  },
+  {
+   "id": "herz",
+   "topic": "body",
+   "art": "das",
+   "de": "Herz",
+   "plural": "Herzen",
+   "ar": "قلب",
+   "photo": {
+    "file": "Love message in the shape of a heart.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Love_message_in_the_shape_of_a_heart.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Love_message_in_the_shape_of_a_heart.jpg",
+    "license": "CC0",
+    "author": "George Hodan"
+   }
+  },
+  {
+   "id": "arm",
+   "topic": "body",
+   "art": "der",
+   "de": "Arm",
+   "plural": "Arme",
+   "ar": "دراع",
+   "photo": {
+    "file": "Extended_arm.jpg",
+    "page": "https://de.wikipedia.org/wiki/Arm",
+    "commons": "https://commons.wikimedia.org/wiki/File:Extended_arm.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Genusfotografen (Tomas Gunnarsson) / Wikimedia Sverige"
+   }
+  },
+  {
+   "id": "buch",
+   "topic": "school",
+   "art": "das",
+   "de": "Buch",
+   "plural": "Bücher",
+   "ar": "كتاب",
+   "photo": {
+    "file": "Latin_dictionary.jpg",
+    "page": "https://de.wikipedia.org/wiki/Buch",
+    "commons": "https://commons.wikimedia.org/wiki/File:Latin_dictionary.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Dr. Marcus Gossler"
+   }
+  },
+  {
+   "id": "stift",
+   "topic": "school",
+   "art": "der",
+   "de": "Stift",
+   "plural": "Stifte",
+   "ar": "قلم",
+   "photo": {
+    "file": "Ballpoint-pen-parts.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kugelschreiber",
+    "commons": "https://commons.wikimedia.org/wiki/File:Ballpoint-pen-parts.jpg",
+    "license": "CC BY-SA 2.5",
+    "author": "No machine-readable author provided. Pavel Krok~commonswiki assumed (based on copyright claims)."
+   }
+  },
+  {
+   "id": "computer",
+   "topic": "school",
+   "art": "der",
+   "de": "Computer",
+   "plural": "-",
+   "ar": "كمبيوتر",
+   "photo": {
+    "file": "Student using desktop computer at CIJEF in 2004.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Student_using_desktop_computer_at_CIJEF_in_2004.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Student_using_desktop_computer_at_CIJEF_in_2004.jpg",
+    "license": "CC0",
+    "author": "Syced"
+   }
+  },
+  {
+   "id": "handy",
+   "topic": "school",
+   "art": "das",
+   "de": "Handy",
+   "plural": "Handys",
+   "ar": "موبايل",
+   "photo": {
+    "file": "Mobile_Phone_Evolution_1992_-_2014.jpg",
+    "page": "https://de.wikipedia.org/wiki/Mobiltelefon",
+    "commons": "https://commons.wikimedia.org/wiki/File:Mobile_Phone_Evolution_1992_-_2014.jpg",
+    "license": "Public domain",
+    "author": "Jojhnjoy"
+   }
+  },
+  {
+   "id": "papier",
+   "topic": "school",
+   "art": "das",
+   "de": "Papier",
+   "plural": "Papiere",
+   "ar": "ورق",
+   "photo": {
+    "file": "FileStack_retouched.jpg",
+    "page": "https://de.wikipedia.org/wiki/Papier",
+    "commons": "https://commons.wikimedia.org/wiki/File:FileStack_retouched.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Niklas Bildhauer  (who also is User gerolsteiner91."
+   }
+  },
+  {
+   "id": "tafel",
+   "topic": "school",
+   "art": "die",
+   "de": "Tafel",
+   "plural": "Tafeln",
+   "ar": "سبورة",
+   "photo": {
+    "file": "Aufgeklappte_Tafel_in_Seminarraum.jpg",
+    "page": "https://de.wikipedia.org/wiki/Schreibtafel",
+    "commons": "https://commons.wikimedia.org/wiki/File:Aufgeklappte_Tafel_in_Seminarraum.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Schreibwaren-Upload"
+   }
+  },
+  {
+   "id": "heft",
+   "topic": "school",
+   "art": "das",
+   "de": "Heft",
+   "plural": "Hefte",
+   "ar": "كراسة",
+   "photo": {
+    "file": "Spiralbinderücken -- 2022 -- 9739 (bw).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spiralbinder%C3%BCcken_--_2022_--_9739_(bw).jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Spiralbinder%C3%BCcken_--_2022_--_9739_(bw).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Dietmar Rabich"
+   }
+  },
+  {
+   "id": "bleistift",
+   "topic": "school",
+   "art": "der",
+   "de": "Bleistift",
+   "plural": "Bleistifte",
+   "ar": "قلم رصاص",
+   "photo": {
+    "file": "Bleistift1.jpg",
+    "page": "https://de.wikipedia.org/wiki/Bleistift",
+    "commons": "https://commons.wikimedia.org/wiki/File:Bleistift1.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": ""
+   }
+  },
+  {
+   "id": "schere",
+   "topic": "school",
+   "art": "die",
+   "de": "Schere",
+   "plural": "Scheren",
+   "ar": "مقص",
+   "photo": {
+    "file": "Pair of scissors with black handle, 2015-06-07.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pair_of_scissors_with_black_handle,_2015-06-07.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Pair_of_scissors_with_black_handle,_2015-06-07.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Crisco 1492"
+   }
+  },
+  {
+   "id": "rucksack",
+   "topic": "school",
+   "art": "der",
+   "de": "Rucksack",
+   "plural": "Rucksäcke",
+   "ar": "شنطة ضهر",
+   "photo": {
+    "file": "Rucksack1.jpg",
+    "page": "https://de.wikipedia.org/wiki/Rucksack",
+    "commons": "https://commons.wikimedia.org/wiki/File:Rucksack1.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "de:Benutzer:sjr"
+   }
+  },
+  {
+   "id": "lineal",
+   "topic": "school",
+   "art": "das",
+   "de": "Lineal",
+   "plural": "Lineale",
+   "ar": "مسطرة",
+   "photo": {
+    "file": "Lineale.jpg",
+    "page": "https://de.wikipedia.org/wiki/Lineal",
+    "commons": "https://commons.wikimedia.org/wiki/File:Lineale.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "No machine-readable author provided. Peng assumed (based on copyright claims)."
+   }
+  },
+  {
+   "id": "zeitung",
+   "topic": "school",
+   "art": "die",
+   "de": "Zeitung",
+   "plural": "Zeitungen",
+   "ar": "جرنان",
+   "photo": {
+    "file": "Hannoversches_Tageblatt,_1865-10-24,_XIV_Jahrgang,_No._292.jpg",
+    "page": "https://de.wikipedia.org/wiki/Zeitung",
+    "commons": "https://commons.wikimedia.org/wiki/File:Hannoversches_Tageblatt,_1865-10-24,_XIV_Jahrgang,_No._292.jpg",
+    "license": "Public domain",
+    "author": "differents"
+   }
+  },
+  {
+   "id": "sonne",
+   "topic": "nature",
+   "art": "die",
+   "de": "Sonne",
+   "plural": "Sonnen",
+   "ar": "شمس",
+   "photo": {
+    "file": "Sun920607.jpg",
+    "page": "https://de.wikipedia.org/wiki/Sonne",
+    "commons": "https://commons.wikimedia.org/wiki/File:Sun920607.jpg",
+    "license": "Public domain",
+    "author": "NASA"
+   }
+  },
+  {
+   "id": "mond",
+   "topic": "nature",
+   "art": "der",
+   "de": "Mond",
+   "plural": "Monde",
+   "ar": "قمر",
+   "photo": {
+    "file": "Full_Moon_Luc_Viatour.jpg",
+    "page": "https://de.wikipedia.org/wiki/Mond",
+    "commons": "https://commons.wikimedia.org/wiki/File:Full_Moon_Luc_Viatour.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Luc Viatour"
+   }
+  },
+  {
+   "id": "schnee",
+   "topic": "nature",
+   "art": "der",
+   "de": "Schnee",
+   "plural": "-",
+   "ar": "تلج",
+   "photo": {
+    "file": "SnowflakesWilsonBentley.jpg",
+    "page": "https://de.wikipedia.org/wiki/Schnee",
+    "commons": "https://commons.wikimedia.org/wiki/File:SnowflakesWilsonBentley.jpg",
+    "license": "Public domain",
+    "author": "Wilson Bentley"
+   }
+  },
+  {
+   "id": "baum",
+   "topic": "nature",
+   "art": "der",
+   "de": "Baum",
+   "plural": "Bäume",
+   "ar": "شجرة",
+   "photo": {
+    "file": "Sequoiadendron_giganteum_at_Kenilworth_Castle.jpg",
+    "page": "https://de.wikipedia.org/wiki/Baum",
+    "commons": "https://commons.wikimedia.org/wiki/File:Sequoiadendron_giganteum_at_Kenilworth_Castle.jpg",
+    "license": "CC BY 1.0",
+    "author": "No machine-readable author provided. Jdforrester assumed (based on copyright claims)."
+   }
+  },
+  {
+   "id": "blume",
+   "topic": "nature",
+   "art": "die",
+   "de": "Blume",
+   "plural": "Blumen",
+   "ar": "وردة / زهرة",
+   "photo": {
+    "file": "Blume_mit_Schmetterling_und_Biene_1uf.JPG",
+    "page": "https://de.wikipedia.org/wiki/Blume",
+    "commons": "https://commons.wikimedia.org/wiki/File:Blume_mit_Schmetterling_und_Biene_1uf.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Uwe H. Friese, Bremerhaven (= User Vulkan)"
+   }
+  },
+  {
+   "id": "berg",
+   "topic": "nature",
+   "art": "der",
+   "de": "Berg",
+   "plural": "Berge",
+   "ar": "جبل",
+   "photo": {
+    "file": "Kodaki_fuji_frm_shojinko.jpg",
+    "page": "https://de.wikipedia.org/wiki/Berg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Kodaki_fuji_frm_shojinko.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "名古屋太郎"
+   }
+  },
+  {
+   "id": "meer",
+   "topic": "nature",
+   "art": "das",
+   "de": "Meer",
+   "plural": "Meere",
+   "ar": "بحر",
+   "photo": {
+    "file": "Baltic Sea view from Schmiedeberg hill in Rerik, 2025-06-23.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Baltic_Sea_view_from_Schmiedeberg_hill_in_Rerik,_2025-06-23.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Baltic_Sea_view_from_Schmiedeberg_hill_in_Rerik,_2025-06-23.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Radomianin"
+   }
+  },
+  {
+   "id": "wolke",
+   "topic": "nature",
+   "art": "die",
+   "de": "Wolke",
+   "plural": "Wolken",
+   "ar": "سحابة",
+   "photo": {
+    "file": "Cirrus uncinus clouds in the morning sky.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cirrus_uncinus_clouds_in_the_morning_sky.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Cirrus_uncinus_clouds_in_the_morning_sky.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "ADARSHluck"
+   }
+  },
+  {
+   "id": "fluss",
+   "topic": "nature",
+   "art": "der",
+   "de": "Fluss",
+   "plural": "Flüsse",
+   "ar": "نهر",
+   "photo": {
+    "file": "Ulm2-midsize.jpg",
+    "page": "https://de.wikipedia.org/wiki/Fluss",
+    "commons": "https://commons.wikimedia.org/wiki/File:Ulm2-midsize.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": ""
+   }
+  },
+  {
+   "id": "strand",
+   "topic": "nature",
+   "art": "der",
+   "de": "Strand",
+   "plural": "Strände",
+   "ar": "شاطئ",
+   "photo": {
+    "file": "Strandbad_-_Kiesstrand_-_2019.jpg",
+    "page": "https://de.wikipedia.org/wiki/Strand",
+    "commons": "https://commons.wikimedia.org/wiki/File:Strandbad_-_Kiesstrand_-_2019.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Markus Wolter"
+   }
+  },
+  {
+   "id": "wueste",
+   "topic": "nature",
+   "art": "die",
+   "de": "Wüste",
+   "plural": "Wüsten",
+   "ar": "صحرا",
+   "photo": {
+    "file": "Dunes, Désert du Thar.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dunes,_D%C3%A9sert_du_Thar.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Dunes,_D%C3%A9sert_du_Thar.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Clément Bardot"
+   }
+  },
+  {
+   "id": "insel",
+   "topic": "nature",
+   "art": "die",
+   "de": "Insel",
+   "plural": "Inseln",
+   "ar": "جزيرة",
+   "photo": {
+    "file": "Havelock Island, Mangrove tree on the beach, Andaman Islands.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Havelock_Island,_Mangrove_tree_on_the_beach,_Andaman_Islands.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Havelock_Island,_Mangrove_tree_on_the_beach,_Andaman_Islands.jpg",
+    "license": "CC BY 4.0",
+    "author": "Vyacheslav Argenberg"
+   }
+  },
+  {
+   "id": "arzt",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Arzt",
+   "plural": "Ärzte",
+   "ar": "دكتور",
+   "photo": {
+    "file": "Auscultation_of_the_anterior_Thorax.jpg",
+    "page": "https://de.wikipedia.org/wiki/Arzt",
+    "commons": "https://commons.wikimedia.org/wiki/File:Auscultation_of_the_anterior_Thorax.jpg",
+    "license": "CC BY 2.0",
+    "author": "Víctor Santa María from Buenos Aires, Argentina"
+   }
+  },
+  {
+   "id": "lehrer",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Lehrer",
+   "plural": "-",
+   "ar": "مدرس",
+   "photo": {
+    "file": "A public high school teacher in a classroom in the United States 08.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg",
+    "license": "CC BY 4.0",
+    "author": "Harrison Keely"
+   }
+  },
+  {
+   "id": "koch",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Koch",
+   "plural": "Köche",
+   "ar": "طباخ",
+   "photo": {
+    "file": "Cookers_in_the_White_House_kitchen.jpg",
+    "page": "https://de.wikipedia.org/wiki/Koch",
+    "commons": "https://commons.wikimedia.org/wiki/File:Cookers_in_the_White_House_kitchen.jpg",
+    "license": "Public domain",
+    "author": "Shealeah Craighead"
+   }
+  },
+  {
+   "id": "polizist",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Polizist",
+   "plural": "Polizisten",
+   "ar": "ضابط / شرطي",
+   "photo": {
+    "file": "Very_friendly_MPS_officers_in_London.jpg",
+    "page": "https://de.wikipedia.org/wiki/Polizist",
+    "commons": "https://commons.wikimedia.org/wiki/File:Very_friendly_MPS_officers_in_London.jpg",
+    "license": "Public domain",
+    "author": "Octagon"
+   }
+  },
+  {
+   "id": "baecker",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Bäcker",
+   "plural": "-",
+   "ar": "خباز",
+   "photo": {
+    "file": "Bakers_at_work,_2013.jpg",
+    "page": "https://de.wikipedia.org/wiki/B%C3%A4cker",
+    "commons": "https://commons.wikimedia.org/wiki/File:Bakers_at_work,_2013.jpg",
+    "license": "CC BY 2.0",
+    "author": "Jarkko Laine"
+   }
+  },
+  {
+   "id": "ingenieur",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Ingenieur",
+   "plural": "Ingenieure",
+   "ar": "مهندس",
+   "photo": {
+    "file": "Engineer working on a 3d-model.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Engineer_working_on_a_3d-model.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Engineer_working_on_a_3d-model.jpg",
+    "license": "CC BY 4.0",
+    "author": "Digitalboyare"
+   }
+  },
+  {
+   "id": "pilot",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Pilot",
+   "plural": "Piloten",
+   "ar": "طيار",
+   "photo": {
+    "file": "Defense.gov_News_Photo_060803-F-2907C-107.jpg",
+    "page": "https://de.wikipedia.org/wiki/Pilot",
+    "commons": "https://commons.wikimedia.org/wiki/File:Defense.gov_News_Photo_060803-F-2907C-107.jpg",
+    "license": "Public domain",
+    "author": "Master Sgt. Lance Cheung, U.S. Air Force"
+   }
+  },
+  {
+   "id": "friseur",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Friseur",
+   "plural": "Friseure",
+   "ar": "حلاق",
+   "photo": {
+    "file": "Frisoerin_(fcm).jpg",
+    "page": "https://de.wikipedia.org/wiki/Friseur",
+    "commons": "https://commons.wikimedia.org/wiki/File:Frisoerin_(fcm).jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Photograph:  Frank C. Müller, Baden-Baden"
+   }
+  },
+  {
+   "id": "bauer",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Bauer",
+   "plural": "Bauern",
+   "ar": "فلاح",
+   "photo": {
+    "file": "Ueberladewagen_(jha).jpg",
+    "page": "https://de.wikipedia.org/wiki/Landwirt",
+    "commons": "https://commons.wikimedia.org/wiki/File:Ueberladewagen_(jha).jpg",
+    "license": "CC BY-SA 2.0 de",
+    "author": "Hinrich"
+   }
+  },
+  {
+   "id": "soldat",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Soldat",
+   "plural": "Soldaten",
+   "ar": "جندي",
+   "photo": {
+    "file": "2581182_A_German_soldier_serving_with_the_Multinational_Battle_Group-East_and_KFOR_on_Orahovac_Range_in_Kosovo_2016.jpg",
+    "page": "https://de.wikipedia.org/wiki/Soldat",
+    "commons": "https://commons.wikimedia.org/wiki/File:2581182_A_German_soldier_serving_with_the_Multinational_Battle_Group-East_and_KFOR_on_Orahovac_Range_in_Kosovo_2016.jpg",
+    "license": "Public domain",
+    "author": "U.S. Army photo by Staff Sgt. Thomas Duval, Multinational Battle Group-East Public Affairs"
+   }
+  },
+  {
+   "id": "kellner",
+   "topic": "jobs",
+   "art": "der",
+   "de": "Kellner",
+   "plural": "-",
+   "ar": "جرسون",
+   "photo": {
+    "file": "Cafe-prueckel-schanigarten.jpg",
+    "page": "https://de.wikipedia.org/wiki/Kellner",
+    "commons": "https://commons.wikimedia.org/wiki/File:Cafe-prueckel-schanigarten.jpg",
+    "license": "CC BY-SA 2.0 at",
+    "author": "Andreas Poeschek, viennaphoto.at"
+   }
+  }
+ ]
+}
